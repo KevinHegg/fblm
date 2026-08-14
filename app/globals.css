@@ -47,13 +47,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .year-ticks { position: absolute; right: 19px; bottom: 9px; left: 202px; display: flex; justify-content: space-between; color: var(--muted); font: 0.58rem/1 Arial, sans-serif; }
 
 .map-layout { display: grid; min-height: 0; grid-template-columns: minmax(0, 1fr) 290px; }
-.map-wrap { position: relative; min-width: 0; background: #e4e6df; }
-.map { position: absolute; inset: 0; }
-.map-reset { position: absolute; z-index: 2; top: 78px; left: 10px; display: grid; width: 34px; height: 34px; padding: 7px; place-items: center; border: 0; border-radius: 4px; background: #fff; box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); color: #333; cursor: pointer; }
+.map-wrap { position: relative; min-width: 0; background: #cfd3c8; }
+.map { position: absolute; inset: 6px; border: 1px solid rgba(108, 98, 90, 0.32); }
+.map-reset { position: absolute; z-index: 2; top: 84px; left: 16px; display: grid; width: 34px; height: 34px; padding: 7px; place-items: center; border: 0; border-radius: 4px; background: #fff; box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); color: #333; cursor: pointer; }
 .map-reset:hover { background: #f2f2f2; }
 .map-reset svg { width: 18px; height: 18px; }
 .map-message { position: absolute; top: 50%; left: 50%; width: min(340px, calc(100% - 40px)); transform: translate(-50%, -50%); padding: 20px; border: 1px solid var(--rule); background: rgba(255, 250, 241, 0.94); box-shadow: 0 8px 28px rgba(38, 31, 28, 0.12); text-align: center; }
-.legend { position: absolute; z-index: 1; bottom: 12px; left: 12px; display: flex; align-items: center; gap: 7px; max-width: 215px; padding: 6px 9px; border: 1px solid rgba(108, 98, 90, 0.28); background: rgba(255, 250, 241, 0.92); color: var(--muted); font: 0.61rem/1.25 Arial, sans-serif; }
+.legend { position: absolute; z-index: 1; bottom: 18px; left: 18px; display: flex; align-items: center; gap: 7px; max-width: 215px; padding: 6px 9px; border: 1px solid rgba(108, 98, 90, 0.28); background: rgba(255, 250, 241, 0.92); color: var(--muted); font: 0.61rem/1.25 Arial, sans-serif; }
 .legend__dot { display: grid; flex: 0 0 28px; width: 28px; height: 28px; place-items: center; border: 2px solid var(--white); border-radius: 50%; background: var(--red); color: var(--white); font-weight: 700; }
 .mapboxgl-popup-content { display: grid; gap: 4px; padding: 11px 13px !important; border: 1px solid var(--rule); border-radius: 0 !important; background: var(--white) !important; box-shadow: 0 6px 22px rgba(38, 31, 28, 0.18) !important; color: var(--ink); }
 .mapboxgl-popup-content strong { font-family: Georgia, serif; font-size: 0.95rem; }

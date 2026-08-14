@@ -190,6 +190,7 @@ export function MapExperience() {
           style: "mapbox://styles/mapbox/outdoors-v12",
           center: [-89.75, 32.75],
           zoom: 5.5,
+          pitch: 10,
           attributionControl: false,
           logoPosition: "bottom-right",
         });
@@ -203,56 +204,56 @@ export function MapExperience() {
           setLoadingError("");
           map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
-          map.addLayer({
-            id: "county-fill",
-            type: "fill",
-            source: "counties",
-            paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.07 },
-          });
-          map.addLayer({
-            id: "county-lines",
-            type: "line",
-            source: "counties",
-            paint: { "line-color": "#8a7e70", "line-opacity": 0.5, "line-width": 0.8 },
-          });
           map.addSource("fblm-terrain", {
             type: "raster-dem",
             url: "mapbox://mapbox.mapbox-terrain-dem-v1",
             tileSize: 512,
             maxzoom: 14,
           });
-          map.setTerrain({ source: "fblm-terrain", exaggeration: 0.35 });
+          map.setTerrain({ source: "fblm-terrain", exaggeration: 1.2 });
           map.addLayer({
             id: "fblm-hillshade",
             type: "hillshade",
             source: "fblm-terrain",
             paint: {
-              "hillshade-exaggeration": 0.52,
-              "hillshade-shadow-color": "#6f6254",
-              "hillshade-highlight-color": "#fffaf1",
-              "hillshade-accent-color": "#a49787",
+              "hillshade-exaggeration": 0.9,
+              "hillshade-shadow-color": "#5e5549",
+              "hillshade-highlight-color": "#fffdf7",
+              "hillshade-accent-color": "#887b69",
             },
-          }, "county-fill");
+          });
+          map.addLayer({
+            id: "county-fill",
+            type: "fill",
+            source: "counties",
+            paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.09 },
+          });
           if (map.getSource("composite")) {
             map.addLayer({
               id: "fblm-water",
               type: "fill",
               source: "composite",
               "source-layer": "water",
-              paint: { "fill-color": "#8fc5d3", "fill-opacity": 0.86 },
-            }, "county-fill");
+              paint: { "fill-color": "#78b8cd", "fill-opacity": 0.96 },
+            });
             map.addLayer({
               id: "fblm-waterways",
               type: "line",
               source: "composite",
               "source-layer": "waterway",
               paint: {
-                "line-color": "#69aabd",
-                "line-opacity": 0.84,
-                "line-width": ["interpolate", ["linear"], ["zoom"], 5, 0.8, 9, 1.5],
+                "line-color": "#4e98b1",
+                "line-opacity": 0.96,
+                "line-width": ["interpolate", ["linear"], ["zoom"], 5, 1.1, 9, 2.4],
               },
-            }, "county-fill");
+            });
           }
+          map.addLayer({
+            id: "county-lines",
+            type: "line",
+            source: "counties",
+            paint: { "line-color": "#786e62", "line-opacity": 0.62, "line-width": 0.85 },
+          });
           const countyLabelData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
             type: "FeatureCollection",
             features: countyData.features.map((county) => ({
