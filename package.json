@@ -1,0 +1,39 @@
+{
+  "name": "against-all-odds-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "vite --config vite.github.config.ts",
+    "build": "vite build --config vite.github.config.ts",
+    "build:github": "vite build --config vite.github.config.ts",
+    "preview": "vite preview --config vite.github.config.ts",
+    "config:write": "node scripts/write-config.mjs",
+    "data:names": "node scripts/build-legislators.mjs",
+    "test": "npm run lint && tsc --noEmit && npm run build:github",
+    "lint": "eslint app github scripts/*.mjs vite.github.config.ts"
+  },
+  "dependencies": {
+    "mapbox-gl": "^3.28.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.4",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "cheerio": "^1.2.0",
+    "eslint": "9.39.4",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "6.1.1",
+    "globals": "16.4.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.59.3",
+    "vite": "8.0.13"
+  }
+}

@@ -1,0 +1,2669 @@
+{
+  "meta": {
+    "source": "https://much-ado.net/legislators/legislators-by-date/",
+    "generatedAt": "2026-08-14T16:01:18.499Z",
+    "note": "Names and biography links are derived from the companion site's year rosters and profile service details."
+  },
+  "records": [
+    {
+      "year": 1870,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Henry P. Jacobs",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-jacobs/",
+          "chamber": ""
+        },
+        {
+          "name": "John Roy Lynch",
+          "url": "https://much-ado.net/legislators/legislators/john-r-lynch/",
+          "chamber": ""
+        },
+        {
+          "name": "Jeremiah M. P. Williams",
+          "url": "https://much-ado.net/legislators/legislators/j-m-p-williams/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Countelow M. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/c-m-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017",
+      "people": [
+        {
+          "name": "Ambrose Henderson",
+          "url": "https://much-ado.net/legislators/legislators/ambrose-henderson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Claiborne",
+      "count": 1,
+      "fips": "28021",
+      "people": [
+        {
+          "name": "Matthew T. Newsom",
+          "url": "https://much-ado.net/legislators/legislators/matthew-t-newsome/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029",
+      "people": [
+        {
+          "name": "Emanuel Handy",
+          "url": "https://much-ado.net/legislators/legislators/emanuel-handy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "Henry Mayson",
+          "url": "https://much-ado.net/legislators/legislators/henry-mayson/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles Fisher Norris",
+          "url": "https://much-ado.net/legislators/legislators/c-f-norris/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles Caldwell",
+          "url": "https://much-ado.net/legislators/legislators/charles-caldwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Holmes",
+      "count": 2,
+      "fips": "28051",
+      "people": [
+        {
+          "name": "Cicero Mitchell",
+          "url": "https://much-ado.net/legislators/legislators/cicero-mitchell/",
+          "chamber": ""
+        },
+        {
+          "name": "Edmund Scarborough",
+          "url": "https://much-ado.net/legislators/legislators/edmund-scarborough/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Richard Griggs",
+          "url": "https://much-ado.net/legislators/legislators/richard-griggs/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Jefferson",
+      "count": 1,
+      "fips": "28063",
+      "people": [
+        {
+          "name": "Merriman Howard",
+          "url": "https://much-ado.net/legislators/legislators/merrimon-howard/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Lauderdale",
+      "count": 1,
+      "fips": "28075",
+      "people": [
+        {
+          "name": "James Aaron Moore",
+          "url": "https://much-ado.net/legislators/legislators/j-aaron-moore/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Lawrence",
+      "count": 1,
+      "fips": "28077",
+      "people": [
+        {
+          "name": "George Charles",
+          "url": "https://much-ado.net/legislators/legislators/george-charles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Lowndes",
+      "count": 2,
+      "fips": "28087",
+      "people": [
+        {
+          "name": "Jesse Freeman Boulden",
+          "url": "https://much-ado.net/legislators/legislators/j-f-bolden/",
+          "chamber": ""
+        },
+        {
+          "name": "Robert Gleed",
+          "url": "https://much-ado.net/legislators/legislators/robert-gleed/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "Alfred Newton Handy",
+          "url": "https://much-ado.net/legislators/legislators/alfred-handy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Marion",
+      "count": 1,
+      "fips": "28091",
+      "people": [
+        {
+          "name": "Michael Wilson",
+          "url": "https://much-ado.net/legislators/legislators/michael-wilson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095",
+      "people": [
+        {
+          "name": "William Holmes",
+          "url": "https://much-ado.net/legislators/legislators/william-holmes/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103",
+      "people": [
+        {
+          "name": "Alexander Kelso Davis",
+          "url": "https://much-ado.net/legislators/legislators/alexander-k-davis/",
+          "chamber": ""
+        },
+        {
+          "name": "Marshall McNeese",
+          "url": "https://much-ado.net/legislators/legislators/marshall-mcneese/",
+          "chamber": ""
+        },
+        {
+          "name": "Isham Stewart",
+          "url": "https://much-ado.net/legislators/legislators/isham-stewart/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Oktibbeha",
+      "count": 2,
+      "fips": "28105",
+      "people": [
+        {
+          "name": "David Higgins",
+          "url": "https://much-ado.net/legislators/legislators/david-higgins/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Panola",
+      "count": 2,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "James H. Piles",
+          "url": "https://much-ado.net/legislators/legislators/james-h-piles/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles A. Yancey",
+          "url": "https://much-ado.net/legislators/legislators/c-a-yancy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Warren",
+      "count": 4,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "Peter Barnabus Barrow",
+          "url": "https://much-ado.net/legislators/legislators/peter-b-barrow/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles P. Head",
+          "url": "https://much-ado.net/legislators/legislators/charles-p-head/",
+          "chamber": ""
+        },
+        {
+          "name": "Albert Johnson",
+          "url": "https://much-ado.net/legislators/legislators/albert-johnson/",
+          "chamber": ""
+        },
+        {
+          "name": "Thomas W. Stringer",
+          "url": "https://much-ado.net/legislators/legislators/thomas-w-stringer/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "John H. Morgan",
+          "url": "https://much-ado.net/legislators/legislators/john-h-morgan/",
+          "chamber": ""
+        },
+        {
+          "name": "Jacob Allen Ross",
+          "url": "https://much-ado.net/legislators/legislators/jacob-a-ross/",
+          "chamber": ""
+        },
+        {
+          "name": "Doctor Stites",
+          "url": "https://much-ado.net/legislators/legislators/dr-stites/",
+          "chamber": ""
+        },
+        {
+          "name": "William Gray",
+          "url": "https://much-ado.net/legislators/legislators/william-gray/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Wilkinson",
+      "count": 2,
+      "fips": "28157",
+      "people": [
+        {
+          "name": "Hugh M. Foley",
+          "url": "https://much-ado.net/legislators/legislators/hugh-m-foley/",
+          "chamber": ""
+        },
+        {
+          "name": "George W. White",
+          "url": "https://much-ado.net/legislators/legislators/george-w-white/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1870,
+      "county": "Yazoo",
+      "count": 1,
+      "fips": "28163",
+      "people": [
+        {
+          "name": "William Henderson Foote",
+          "url": "https://much-ado.net/legislators/legislators/william-h-foote/",
+          "chamber": ""
+        },
+        {
+          "name": "F. Dora Wade",
+          "url": "https://much-ado.net/legislators/legislators/f-dora-wade/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Henry P. Jacobs",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-jacobs/",
+          "chamber": ""
+        },
+        {
+          "name": "John Roy Lynch",
+          "url": "https://much-ado.net/legislators/legislators/john-r-lynch/",
+          "chamber": ""
+        },
+        {
+          "name": "Jeremiah M. P. Williams",
+          "url": "https://much-ado.net/legislators/legislators/j-m-p-williams/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Amite",
+      "count": 1,
+      "fips": "28005",
+      "people": [
+        {
+          "name": "Reuben Kendrick",
+          "url": "https://much-ado.net/legislators/legislators/reuben-kendrick/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        },
+        {
+          "name": "Countelow M. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/c-m-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021",
+      "people": [
+        {
+          "name": "Joseph S. Smothers",
+          "url": "https://much-ado.net/legislators/legislators/joseph-smothers/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029",
+      "people": [
+        {
+          "name": "Emanuel Handy",
+          "url": "https://much-ado.net/legislators/legislators/emanuel-handy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "DeSoto",
+      "count": 2,
+      "fips": "28033",
+      "people": [
+        {
+          "name": "J. H. Johnson",
+          "url": "https://much-ado.net/legislators/legislators/j-h-johnson/",
+          "chamber": ""
+        },
+        {
+          "name": "Thomas McCain",
+          "url": "https://much-ado.net/legislators/legislators/thomas-mccain/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Grenada",
+      "count": 1,
+      "fips": "28043",
+      "people": [
+        {
+          "name": "David S. Green",
+          "url": "https://much-ado.net/legislators/legislators/d-s-green/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Hinds",
+      "count": 5,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "Monroe Bell",
+          "url": "https://much-ado.net/legislators/legislators/monroe-bell/",
+          "chamber": ""
+        },
+        {
+          "name": "William Johnson",
+          "url": "https://much-ado.net/legislators/legislators/william-johnson/",
+          "chamber": ""
+        },
+        {
+          "name": "Henry Mayson",
+          "url": "https://much-ado.net/legislators/legislators/henry-mayson/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles Reese",
+          "url": "https://much-ado.net/legislators/legislators/charles-reese/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles Caldwell",
+          "url": "https://much-ado.net/legislators/legislators/charles-caldwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Holmes",
+      "count": 3,
+      "fips": "28051",
+      "people": [
+        {
+          "name": "Perry W. Howard",
+          "url": "https://much-ado.net/legislators/legislators/perry-howard/",
+          "chamber": ""
+        },
+        {
+          "name": "Frederick Stewart",
+          "url": "https://much-ado.net/legislators/legislators/f-stewart/",
+          "chamber": ""
+        },
+        {
+          "name": "Harrison H. Truhart",
+          "url": "https://much-ado.net/legislators/legislators/h-h-truehart/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Richard Griggs",
+          "url": "https://much-ado.net/legislators/legislators/richard-griggs/",
+          "chamber": ""
+        },
+        {
+          "name": "Russell Walker Houston",
+          "url": "https://much-ado.net/legislators/legislators/r-w-houston/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Jefferson",
+      "count": 3,
+      "fips": "28063",
+      "people": [
+        {
+          "name": "James D. Cessor",
+          "url": "https://much-ado.net/legislators/legislators/james-d-cessar/",
+          "chamber": ""
+        },
+        {
+          "name": "Merriman Howard",
+          "url": "https://much-ado.net/legislators/legislators/merrimon-howard/",
+          "chamber": ""
+        },
+        {
+          "name": "William R. Landers",
+          "url": "https://much-ado.net/legislators/legislators/william-r-landers/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083",
+      "people": [
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Lowndes",
+      "count": 1,
+      "fips": "28087",
+      "people": [
+        {
+          "name": "Robert Gleed",
+          "url": "https://much-ado.net/legislators/legislators/robert-gleed/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "Alfred Newton Handy",
+          "url": "https://much-ado.net/legislators/legislators/alfred-handy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093",
+      "people": [
+        {
+          "name": "James Hill",
+          "url": "https://much-ado.net/legislators/legislators/james-hill/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Monroe",
+      "count": 2,
+      "fips": "28095",
+      "people": [
+        {
+          "name": "Arthur Brooks",
+          "url": "https://much-ado.net/legislators/legislators/arthur-brooks/",
+          "chamber": ""
+        },
+        {
+          "name": "William Holmes",
+          "url": "https://much-ado.net/legislators/legislators/william-holmes/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Noxubee",
+      "count": 2,
+      "fips": "28103",
+      "people": [
+        {
+          "name": "Alexander Kelso Davis",
+          "url": "https://much-ado.net/legislators/legislators/alexander-k-davis/",
+          "chamber": ""
+        },
+        {
+          "name": "Isham Stewart",
+          "url": "https://much-ado.net/legislators/legislators/isham-stewart/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105",
+      "people": [
+        {
+          "name": "Randle Nettles",
+          "url": "https://much-ado.net/legislators/legislators/randle-nettles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Panola",
+      "count": 2,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "John Cocke",
+          "url": "https://much-ado.net/legislators/legislators/john-cocke/",
+          "chamber": ""
+        },
+        {
+          "name": "James H. Piles",
+          "url": "https://much-ado.net/legislators/legislators/james-h-piles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133",
+      "people": [
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143",
+      "people": [
+        {
+          "name": "Gilbert C. Smith",
+          "url": "https://much-ado.net/legislators/legislators/gilbert-c-smith/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Warren",
+      "count": 5,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "Charles W. Bush",
+          "url": "https://much-ado.net/legislators/legislators/charles-w-bush/",
+          "chamber": ""
+        },
+        {
+          "name": "Hannibal C. Carter",
+          "url": "https://much-ado.net/legislators/legislators/hannibal-c-carter/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        },
+        {
+          "name": "Isaac D. Shadd",
+          "url": "https://much-ado.net/legislators/legislators/f-d-shadd/",
+          "chamber": ""
+        },
+        {
+          "name": "Peter Barnabus Barrow",
+          "url": "https://much-ado.net/legislators/legislators/peter-b-barrow/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "Russell Walker Houston",
+          "url": "https://much-ado.net/legislators/legislators/r-w-houston/",
+          "chamber": ""
+        },
+        {
+          "name": "John H. Morgan",
+          "url": "https://much-ado.net/legislators/legislators/john-h-morgan/",
+          "chamber": ""
+        },
+        {
+          "name": "John D. Webster",
+          "url": "https://much-ado.net/legislators/legislators/john-d-webster/",
+          "chamber": ""
+        },
+        {
+          "name": "William Gray",
+          "url": "https://much-ado.net/legislators/legislators/william-gray/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Wilkinson",
+      "count": 2,
+      "fips": "28157",
+      "people": [
+        {
+          "name": "Hugh M. Foley",
+          "url": "https://much-ado.net/legislators/legislators/hugh-m-foley/",
+          "chamber": ""
+        },
+        {
+          "name": "George W. White",
+          "url": "https://much-ado.net/legislators/legislators/george-w-white/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1872,
+      "county": "Yazoo",
+      "count": 2,
+      "fips": "28163",
+      "people": [
+        {
+          "name": "James M. Dixon",
+          "url": "https://much-ado.net/legislators/legislators/james-m-dixon/",
+          "chamber": ""
+        },
+        {
+          "name": "F. Dora Wade",
+          "url": "https://much-ado.net/legislators/legislators/f-dora-wade/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Adams",
+      "count": 5,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Willis Davis",
+          "url": "https://much-ado.net/legislators/legislators/willis-davis/",
+          "chamber": ""
+        },
+        {
+          "name": "Henry P. Jacobs",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-jacobs/",
+          "chamber": ""
+        },
+        {
+          "name": "John Roy Lynch",
+          "url": "https://much-ado.net/legislators/legislators/john-r-lynch/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Lynch",
+          "url": "https://much-ado.net/legislators/legislators/w-h-lynch/",
+          "chamber": ""
+        },
+        {
+          "name": "Jeremiah M. P. Williams",
+          "url": "https://much-ado.net/legislators/legislators/j-m-p-williams/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Amite",
+      "count": 1,
+      "fips": "28005",
+      "people": [
+        {
+          "name": "Reuben Kendrick",
+          "url": "https://much-ado.net/legislators/legislators/reuben-kendrick/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        },
+        {
+          "name": "Countelow M. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/c-m-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Carroll",
+      "count": 1,
+      "fips": "28015",
+      "people": [
+        {
+          "name": "George Washington",
+          "url": "https://much-ado.net/legislators/legislators/g-washington/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Chickasaw",
+      "count": 3,
+      "fips": "28017",
+      "people": [
+        {
+          "name": "Henry H. Harrison",
+          "url": "https://much-ado.net/legislators/legislators/h-h-harrison/",
+          "chamber": ""
+        },
+        {
+          "name": "George White",
+          "url": "https://much-ado.net/legislators/legislators/george-white/",
+          "chamber": ""
+        },
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021",
+      "people": [
+        {
+          "name": "Haskins S. Smith",
+          "url": "https://much-ado.net/legislators/legislators/h-smith/",
+          "chamber": ""
+        },
+        {
+          "name": "Joseph S. Smothers",
+          "url": "https://much-ado.net/legislators/legislators/joseph-smothers/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Clarke",
+      "count": 1,
+      "fips": "28023",
+      "people": [
+        {
+          "name": "Charles P. Clemens",
+          "url": "https://much-ado.net/legislators/legislators/c-p-clemons/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Clay",
+      "count": 1,
+      "fips": "28025",
+      "people": [
+        {
+          "name": "J. Wesley Caradine",
+          "url": "https://much-ado.net/legislators/legislators/j-w-caradine/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Coahoma",
+      "count": 2,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "Joseph E. Monroe",
+          "url": "https://much-ado.net/legislators/legislators/j-e-monroe/",
+          "chamber": ""
+        },
+        {
+          "name": "George Cornelius Smith",
+          "url": "https://much-ado.net/legislators/legislators/smith/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029",
+      "people": [
+        {
+          "name": "Richard Christmas",
+          "url": "https://much-ado.net/legislators/legislators/r-chrismas/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "DeSoto",
+      "count": 2,
+      "fips": "28033",
+      "people": [
+        {
+          "name": "J. H. Johnson",
+          "url": "https://much-ado.net/legislators/legislators/j-h-johnson/",
+          "chamber": ""
+        },
+        {
+          "name": "Thomas McCain",
+          "url": "https://much-ado.net/legislators/legislators/thomas-mccain/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Grenada",
+      "count": 1,
+      "fips": "28043",
+      "people": [
+        {
+          "name": "David S. Green",
+          "url": "https://much-ado.net/legislators/legislators/d-s-green/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "George G. Moseley",
+          "url": "https://much-ado.net/legislators/legislators/g-g-moseley/",
+          "chamber": ""
+        },
+        {
+          "name": "Eugene Bonaparte Welborne",
+          "url": "https://much-ado.net/legislators/legislators/e-b-wilbourne/",
+          "chamber": ""
+        },
+        {
+          "name": "Charles Caldwell",
+          "url": "https://much-ado.net/legislators/legislators/charles-caldwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Holmes",
+      "count": 3,
+      "fips": "28051",
+      "people": [
+        {
+          "name": "Perry W. Howard",
+          "url": "https://much-ado.net/legislators/legislators/perry-howard/",
+          "chamber": ""
+        },
+        {
+          "name": "Harrison H. Truhart",
+          "url": "https://much-ado.net/legislators/legislators/h-h-truehart/",
+          "chamber": ""
+        },
+        {
+          "name": "Tenant Weatherly",
+          "url": "https://much-ado.net/legislators/legislators/t-weatherly/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "William H. Jones",
+          "url": "https://much-ado.net/legislators/legislators/w-h-jones/",
+          "chamber": ""
+        },
+        {
+          "name": "James S. Simmons",
+          "url": "https://much-ado.net/legislators/legislators/j-s-simmons/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Jefferson",
+      "count": 2,
+      "fips": "28063",
+      "people": [
+        {
+          "name": "James D. Cessor",
+          "url": "https://much-ado.net/legislators/legislators/james-d-cessar/",
+          "chamber": ""
+        },
+        {
+          "name": "William R. Landers",
+          "url": "https://much-ado.net/legislators/legislators/william-r-landers/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083",
+      "people": [
+        {
+          "name": "John William Randolph",
+          "url": "https://much-ado.net/legislators/legislators/j-w-randolph/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Lowndes",
+      "count": 4,
+      "fips": "28087",
+      "people": [
+        {
+          "name": "J. H. Glenn",
+          "url": "https://much-ado.net/legislators/legislators/j-h-glenn/",
+          "chamber": ""
+        },
+        {
+          "name": "Elzy A. Richards",
+          "url": "https://much-ado.net/legislators/legislators/e-a-richards/",
+          "chamber": ""
+        },
+        {
+          "name": "Robert Thompson",
+          "url": "https://much-ado.net/legislators/legislators/r-thompson/",
+          "chamber": ""
+        },
+        {
+          "name": "Robert Gleed",
+          "url": "https://much-ado.net/legislators/legislators/robert-gleed/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "Alfred Newton Handy",
+          "url": "https://much-ado.net/legislators/legislators/alfred-handy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Marshall",
+      "count": 4,
+      "fips": "28093",
+      "people": [
+        {
+          "name": "Alfred Peal",
+          "url": "https://much-ado.net/legislators/legislators/a-peal/",
+          "chamber": ""
+        },
+        {
+          "name": "A. A. Rogers",
+          "url": "https://much-ado.net/legislators/legislators/a-a-rogers/",
+          "chamber": ""
+        },
+        {
+          "name": "Ralph Williams",
+          "url": "https://much-ado.net/legislators/legislators/r-williams/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Albright",
+          "url": "https://much-ado.net/legislators/legislators/g-w-albright/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Monroe",
+      "count": 3,
+      "fips": "28095",
+      "people": [
+        {
+          "name": "Cato Nathan",
+          "url": "https://much-ado.net/legislators/legislators/cato-nathan/",
+          "chamber": ""
+        },
+        {
+          "name": "Jefferson Cobb Walker",
+          "url": "https://much-ado.net/legislators/legislators/j-c-walker/",
+          "chamber": ""
+        },
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103",
+      "people": [
+        {
+          "name": "Thomas A. Cotton",
+          "url": "https://much-ado.net/legislators/legislators/t-a-cotton/",
+          "chamber": ""
+        },
+        {
+          "name": "Marshall McNeese",
+          "url": "https://much-ado.net/legislators/legislators/marshall-mcneese/",
+          "chamber": ""
+        },
+        {
+          "name": "Isham Stewart",
+          "url": "https://much-ado.net/legislators/legislators/isham-stewart/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Oktibbeha",
+      "count": 2,
+      "fips": "28105",
+      "people": [
+        {
+          "name": "Anderson Boyd",
+          "url": "https://much-ado.net/legislators/legislators/octi-boyd/",
+          "chamber": ""
+        },
+        {
+          "name": "Benjamin Chiles",
+          "url": "https://much-ado.net/legislators/legislators/benjamin-chiles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Panola",
+      "count": 4,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "Orange A. Brunt",
+          "url": "https://much-ado.net/legislators/legislators/o-brunt/",
+          "chamber": ""
+        },
+        {
+          "name": "Daniel T. J. Mathews",
+          "url": "https://much-ado.net/legislators/legislators/d-t-j-mathews/",
+          "chamber": ""
+        },
+        {
+          "name": "Thomas Sykes",
+          "url": "https://much-ado.net/legislators/legislators/t-sykes/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Rankin",
+      "count": 2,
+      "fips": "28121",
+      "people": [
+        {
+          "name": "Wilson Hicks",
+          "url": "https://much-ado.net/legislators/legislators/wilson-hicks/",
+          "chamber": ""
+        },
+        {
+          "name": "John W. McFarland",
+          "url": "https://much-ado.net/legislators/legislators/j-w-mcfarland/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133",
+      "people": [
+        {
+          "name": "John William Randolph",
+          "url": "https://much-ado.net/legislators/legislators/j-w-randolph/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143",
+      "people": [
+        {
+          "name": "Gilbert C. Smith",
+          "url": "https://much-ado.net/legislators/legislators/gilbert-c-smith/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Warren",
+      "count": 5,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "George W. Boyd",
+          "url": "https://much-ado.net/legislators/legislators/boyd/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Chavis",
+          "url": "https://much-ado.net/legislators/legislators/washington-chavis/",
+          "chamber": ""
+        },
+        {
+          "name": "Weldon W. Edwards",
+          "url": "https://much-ado.net/legislators/legislators/w-w-edwards/",
+          "chamber": ""
+        },
+        {
+          "name": "Isaac D. Shadd",
+          "url": "https://much-ado.net/legislators/legislators/f-d-shadd/",
+          "chamber": ""
+        },
+        {
+          "name": "Peter Barnabus Barrow",
+          "url": "https://much-ado.net/legislators/legislators/peter-b-barrow/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "W. H. Harris",
+          "url": "https://much-ado.net/legislators/legislators/w-h-harris/",
+          "chamber": ""
+        },
+        {
+          "name": "John H. Morgan",
+          "url": "https://much-ado.net/legislators/legislators/john-h-morgan/",
+          "chamber": ""
+        },
+        {
+          "name": "James S. Simmons",
+          "url": "https://much-ado.net/legislators/legislators/j-s-simmons/",
+          "chamber": ""
+        },
+        {
+          "name": "William Gray",
+          "url": "https://much-ado.net/legislators/legislators/william-gray/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Wilkinson",
+      "count": 3,
+      "fips": "28157",
+      "people": [
+        {
+          "name": "Samuel W. Fitzhugh",
+          "url": "https://much-ado.net/legislators/legislators/s-w-fitzhugh/",
+          "chamber": ""
+        },
+        {
+          "name": "George W. White",
+          "url": "https://much-ado.net/legislators/legislators/george-w-white/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1874,
+      "county": "Yazoo",
+      "count": 2,
+      "fips": "28163",
+      "people": [
+        {
+          "name": "Walter Boyd",
+          "url": "https://much-ado.net/legislators/legislators/boyd-2/",
+          "chamber": ""
+        },
+        {
+          "name": "James G. Patterson",
+          "url": "https://much-ado.net/legislators/legislators/j-g-patterson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Willis Davis",
+          "url": "https://much-ado.net/legislators/legislators/willis-davis/",
+          "chamber": ""
+        },
+        {
+          "name": "Henry P. Jacobs",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-jacobs/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Lynch",
+          "url": "https://much-ado.net/legislators/legislators/w-h-lynch/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Countelow M. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/c-m-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017",
+      "people": [
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021",
+      "people": [
+        {
+          "name": "Haskins S. Smith",
+          "url": "https://much-ado.net/legislators/legislators/h-smith/",
+          "chamber": ""
+        },
+        {
+          "name": "Joseph S. Smothers",
+          "url": "https://much-ado.net/legislators/legislators/joseph-smothers/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "Joseph E. Monroe",
+          "url": "https://much-ado.net/legislators/legislators/j-e-monroe/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "William H. Jones",
+          "url": "https://much-ado.net/legislators/legislators/w-h-jones/",
+          "chamber": ""
+        },
+        {
+          "name": "Samuel Andrew Sanderlin",
+          "url": "https://much-ado.net/legislators/legislators/samuel-sanderlin/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Jefferson",
+      "count": 2,
+      "fips": "28063",
+      "people": [
+        {
+          "name": "James D. Cessor",
+          "url": "https://much-ado.net/legislators/legislators/james-d-cessar/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083",
+      "people": [
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "David Jenkins",
+          "url": "https://much-ado.net/legislators/legislators/david-jenkins/",
+          "chamber": ""
+        },
+        {
+          "name": "Adam D. Simpson",
+          "url": "https://much-ado.net/legislators/legislators/adam-simpson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093",
+      "people": [
+        {
+          "name": "George Washington Albright",
+          "url": "https://much-ado.net/legislators/legislators/g-w-albright/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095",
+      "people": [
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103",
+      "people": [
+        {
+          "name": "Marshall McNeese",
+          "url": "https://much-ado.net/legislators/legislators/marshall-mcneese/",
+          "chamber": ""
+        },
+        {
+          "name": "Lawrence W. Overton",
+          "url": "https://much-ado.net/legislators/legislators/lawrence-w-overton/",
+          "chamber": ""
+        },
+        {
+          "name": "Isham Stewart",
+          "url": "https://much-ado.net/legislators/legislators/isham-stewart/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105",
+      "people": [
+        {
+          "name": "Benjamin Chiles",
+          "url": "https://much-ado.net/legislators/legislators/benjamin-chiles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "Guilford Vaughan",
+          "url": "https://much-ado.net/legislators/legislators/guilford-vaughan/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133",
+      "people": [
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143",
+      "people": [
+        {
+          "name": "George P. A. Brown",
+          "url": "https://much-ado.net/legislators/legislators/george-p-a-brown/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Warren",
+      "count": 3,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "Hannibal C. Carter",
+          "url": "https://much-ado.net/legislators/legislators/hannibal-c-carter/",
+          "chamber": ""
+        },
+        {
+          "name": "Weldon W. Edwards",
+          "url": "https://much-ado.net/legislators/legislators/w-w-edwards/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Mallory",
+          "url": "https://much-ado.net/legislators/legislators/william-h-mallory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Washington",
+      "count": 2,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "Samuel Andrew Sanderlin",
+          "url": "https://much-ado.net/legislators/legislators/samuel-sanderlin/",
+          "chamber": ""
+        },
+        {
+          "name": "James B. Young",
+          "url": "https://much-ado.net/legislators/legislators/james-b-young/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1876,
+      "county": "Wilkinson",
+      "count": 3,
+      "fips": "28157",
+      "people": [
+        {
+          "name": "Samuel W. Fitzhugh",
+          "url": "https://much-ado.net/legislators/legislators/s-w-fitzhugh/",
+          "chamber": ""
+        },
+        {
+          "name": "Samuel Riley",
+          "url": "https://much-ado.net/legislators/legislators/samuel-riley/",
+          "chamber": ""
+        },
+        {
+          "name": "George W. White",
+          "url": "https://much-ado.net/legislators/legislators/george-w-white/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Henry P. Jacobs",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-jacobs/",
+          "chamber": ""
+        },
+        {
+          "name": "George Richardson Washington",
+          "url": "https://much-ado.net/legislators/legislators/george-r-washington/",
+          "chamber": ""
+        },
+        {
+          "name": "Jeremiah M. P. Williams",
+          "url": "https://much-ado.net/legislators/legislators/j-m-p-williams/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Countelow M. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/c-m-bowles/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017",
+      "people": [
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Hinds",
+      "count": 1,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "Weldon Hicks",
+          "url": "https://much-ado.net/legislators/legislators/weldon-hicks/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Holmes",
+      "count": 2,
+      "fips": "28051",
+      "people": [
+        {
+          "name": "James G. Marshall",
+          "url": "https://much-ado.net/legislators/legislators/james-g-marshall/",
+          "chamber": ""
+        },
+        {
+          "name": "Cicero Mitchell",
+          "url": "https://much-ado.net/legislators/legislators/cicero-mitchell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Henry P. Scott",
+          "url": "https://much-ado.net/legislators/legislators/henry-p-scott/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "George Edwards",
+          "url": "https://much-ado.net/legislators/legislators/george-edwards/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Marshall",
+      "count": 2,
+      "fips": "28093",
+      "people": [
+        {
+          "name": "Robert Cunningham",
+          "url": "https://much-ado.net/legislators/legislators/robert-cunningham/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Albright",
+          "url": "https://much-ado.net/legislators/legislators/g-w-albright/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095",
+      "people": [
+        {
+          "name": "Nathan A. Shirley",
+          "url": "https://much-ado.net/legislators/legislators/shirley-2/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105",
+      "people": [
+        {
+          "name": "Benjamin Chiles",
+          "url": "https://much-ado.net/legislators/legislators/benjamin-chiles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "James M. Young",
+          "url": "https://much-ado.net/legislators/legislators/james-m-young/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1878,
+      "county": "Wilkinson",
+      "count": 1,
+      "fips": "28157",
+      "people": [
+        {
+          "name": "Samuel Riley",
+          "url": "https://much-ado.net/legislators/legislators/samuel-riley/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "William W. Hence",
+          "url": "https://much-ado.net/legislators/legislators/w-w-hence/",
+          "chamber": ""
+        },
+        {
+          "name": "George Richardson Washington",
+          "url": "https://much-ado.net/legislators/legislators/george-r-washington/",
+          "chamber": ""
+        },
+        {
+          "name": "Jeremiah M. P. Williams",
+          "url": "https://much-ado.net/legislators/legislators/j-m-p-williams/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Joseph Henry Bufford",
+          "url": "https://much-ado.net/legislators/legislators/joseph-henry-bufford/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Hinds",
+      "count": 1,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "Louis Kossuth Atwood",
+          "url": "https://much-ado.net/legislators/legislators/l-k-atwood/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Holmes",
+      "count": 1,
+      "fips": "28051",
+      "people": [
+        {
+          "name": "Tenant Weatherly",
+          "url": "https://much-ado.net/legislators/legislators/t-weatherly/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Lemuel C. Moore",
+          "url": "https://much-ado.net/legislators/legislators/lemuel-moore/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093",
+      "people": [
+        {
+          "name": "Gray C. Selby",
+          "url": "https://much-ado.net/legislators/legislators/gray-c-selby/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "Alfred Fields",
+          "url": "https://much-ado.net/legislators/legislators/alfred-fields/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1880,
+      "county": "Yazoo",
+      "count": 1,
+      "fips": "28163",
+      "people": [
+        {
+          "name": "Henry Craytin",
+          "url": "https://much-ado.net/legislators/legislators/henry-craytin/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "William W. Hence",
+          "url": "https://much-ado.net/legislators/legislators/w-w-hence/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Lynch",
+          "url": "https://much-ado.net/legislators/legislators/w-h-lynch/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Joseph Henry Bufford",
+          "url": "https://much-ado.net/legislators/legislators/joseph-henry-bufford/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Hinds",
+      "count": 2,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "George Caldwell Granberry",
+          "url": "https://much-ado.net/legislators/legislators/george-c-granberry/",
+          "chamber": ""
+        },
+        {
+          "name": "James A. Shorter, Jr.",
+          "url": "https://much-ado.net/legislators/legislators/james-a-shorter-jr/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Stephen B Blackwell",
+          "url": "https://much-ado.net/legislators/legislators/stephen-b-blackwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "Matthew Levy",
+          "url": "https://much-ado.net/legislators/legislators/matthew-levy/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "Albert B. Poston",
+          "url": "https://much-ado.net/legislators/legislators/albert-b-poston/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Warren",
+      "count": 2,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "Milton Coates",
+          "url": "https://much-ado.net/legislators/legislators/milton-coates/",
+          "chamber": ""
+        },
+        {
+          "name": "Weldon W. Edwards",
+          "url": "https://much-ado.net/legislators/legislators/w-w-edwards/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1882,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "Peter Mitchell",
+          "url": "https://much-ado.net/legislators/legislators/peter-mitchell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Felix L. Cory",
+          "url": "https://much-ado.net/legislators/legislators/felix-cory/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "Perry Peyton",
+          "url": "https://much-ado.net/legislators/legislators/perry-peyton/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "William H. Allen",
+          "url": "https://much-ado.net/legislators/legislators/william-h-allen/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049",
+      "people": [
+        {
+          "name": "Louis Kossuth Atwood",
+          "url": "https://much-ado.net/legislators/legislators/l-k-atwood/",
+          "chamber": ""
+        },
+        {
+          "name": "Murdock M. McLeod",
+          "url": "https://much-ado.net/legislators/legislators/m-m-mcleod/",
+          "chamber": ""
+        },
+        {
+          "name": "William M. Robinson",
+          "url": "https://much-ado.net/legislators/legislators/w-m-robinson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Issaquena",
+      "count": 3,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Stephen B Blackwell",
+          "url": "https://much-ado.net/legislators/legislators/stephen-b-blackwell/",
+          "chamber": ""
+        },
+        {
+          "name": "Lemuel C. Moore",
+          "url": "https://much-ado.net/legislators/legislators/lemuel-moore/",
+          "chamber": ""
+        },
+        {
+          "name": "James S. Simmons",
+          "url": "https://much-ado.net/legislators/legislators/j-s-simmons/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "John Franklin Henry",
+          "url": "https://much-ado.net/legislators/legislators/j-f-henry/",
+          "chamber": ""
+        },
+        {
+          "name": "Samuel W. Lewis",
+          "url": "https://much-ado.net/legislators/legislators/s-w-lewis/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107",
+      "people": [
+        {
+          "name": "Josiah Thomas Settle",
+          "url": "https://much-ado.net/legislators/legislators/josiah-t-settle/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "George William Butler",
+          "url": "https://much-ado.net/legislators/legislators/george-william-butler/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143",
+      "people": [
+        {
+          "name": "Gilbert C. Smith",
+          "url": "https://much-ado.net/legislators/legislators/gilbert-c-smith/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Warren",
+      "count": 1,
+      "fips": "28149",
+      "people": [
+        {
+          "name": "Milton Coates",
+          "url": "https://much-ado.net/legislators/legislators/milton-coates/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1884,
+      "county": "Washington",
+      "count": 3,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "Gilbert Horton",
+          "url": "https://much-ado.net/legislators/legislators/gilbert-horton/",
+          "chamber": ""
+        },
+        {
+          "name": "Jones R. Parker",
+          "url": "https://much-ado.net/legislators/legislators/j-r-parker/",
+          "chamber": ""
+        },
+        {
+          "name": "James S. Simmons",
+          "url": "https://much-ado.net/legislators/legislators/j-s-simmons/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "Felix L. Cory",
+          "url": "https://much-ado.net/legislators/legislators/felix-cory/",
+          "chamber": ""
+        },
+        {
+          "name": "William H. Lynch",
+          "url": "https://much-ado.net/legislators/legislators/w-h-lynch/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "William Lucius Lowe",
+          "url": "https://much-ado.net/legislators/legislators/william-lucius-lowe/",
+          "chamber": ""
+        },
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "William H. Allen",
+          "url": "https://much-ado.net/legislators/legislators/william-h-allen/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Stephen B Blackwell",
+          "url": "https://much-ado.net/legislators/legislators/stephen-b-blackwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089",
+      "people": [
+        {
+          "name": "John Johnson",
+          "url": "https://much-ado.net/legislators/legislators/john-johnson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Sharkey",
+      "count": 2,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "Frank P. P. Brooks",
+          "url": "https://much-ado.net/legislators/legislators/frank-p-brooks/",
+          "chamber": ""
+        },
+        {
+          "name": "George William Butler",
+          "url": "https://much-ado.net/legislators/legislators/george-william-butler/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1886,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "Peter Mitchell",
+          "url": "https://much-ado.net/legislators/legislators/peter-mitchell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "George F. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/george-f-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "George W. Huntley",
+          "url": "https://much-ado.net/legislators/legislators/george-w-huntley/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "David H. Hopson",
+          "url": "https://much-ado.net/legislators/legislators/d-h-hopson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Stephen B Blackwell",
+          "url": "https://much-ado.net/legislators/legislators/stephen-b-blackwell/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Rankin",
+      "count": 1,
+      "fips": "28121",
+      "people": [
+        {
+          "name": "Henry L. Jackson",
+          "url": "https://much-ado.net/legislators/legislators/henry-l-jackson/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Sharkey",
+      "count": 2,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "Frank P. P. Brooks",
+          "url": "https://much-ado.net/legislators/legislators/frank-p-brooks/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1888,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "W. H. Harris",
+          "url": "https://much-ado.net/legislators/legislators/w-h-harris/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Adams",
+      "count": 1,
+      "fips": "28001",
+      "people": [
+        {
+          "name": "George F. Bowles",
+          "url": "https://much-ado.net/legislators/legislators/george-f-bowles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "L. C. Moore",
+          "url": "https://much-ado.net/legislators/legislators/l-c-moore/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027",
+      "people": [
+        {
+          "name": "George H. Oliver",
+          "url": "https://much-ado.net/legislators/legislators/george-h-oliver/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055",
+      "people": [
+        {
+          "name": "Cornelius Jonas Jones",
+          "url": "https://much-ado.net/legislators/legislators/c-j-jones/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "George William Butler",
+          "url": "https://much-ado.net/legislators/legislators/george-william-butler/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1890,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151",
+      "people": [
+        {
+          "name": "John F. Harris",
+          "url": "https://much-ado.net/legislators/legislators/john-f-harris/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1892,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1892,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "George William Butler",
+          "url": "https://much-ado.net/legislators/legislators/george-william-butler/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1894,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011",
+      "people": [
+        {
+          "name": "George Washington Gayles",
+          "url": "https://much-ado.net/legislators/legislators/george-washington-gayles/",
+          "chamber": ""
+        }
+      ]
+    },
+    {
+      "year": 1894,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125",
+      "people": [
+        {
+          "name": "George William Butler",
+          "url": "https://much-ado.net/legislators/legislators/george-william-butler/",
+          "chamber": ""
+        }
+      ]
+    }
+  ]
+}

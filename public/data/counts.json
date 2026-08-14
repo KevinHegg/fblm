@@ -1,0 +1,6435 @@
+{
+  "meta": {
+    "title": "Against All Odds: The First Black Legislators in Mississippi",
+    "sourceWorkbook": "deedee_mapdata.xlsx",
+    "fipsCorrection": "Clarke County 20823 corrected to 28023 during export"
+  },
+  "years": [
+    1870,
+    1872,
+    1874,
+    1876,
+    1878,
+    1880,
+    1882,
+    1884,
+    1886,
+    1888,
+    1890,
+    1892,
+    1894
+  ],
+  "totals": {
+    "1870": 40,
+    "1872": 52,
+    "1874": 73,
+    "1876": 32,
+    "1878": 17,
+    "1880": 11,
+    "1882": 12,
+    "1884": 20,
+    "1886": 10,
+    "1888": 9,
+    "1890": 6,
+    "1892": 2,
+    "1894": 2
+  },
+  "records": [
+    {
+      "year": 1870,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001"
+    },
+    {
+      "year": 1870,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1870,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1870,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1870,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1870,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1870,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1870,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1870,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017"
+    },
+    {
+      "year": 1870,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1870,
+      "county": "Claiborne",
+      "count": 1,
+      "fips": "28021"
+    },
+    {
+      "year": 1870,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1870,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1870,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1870,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029"
+    },
+    {
+      "year": 1870,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1870,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1870,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1870,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1870,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1870,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1870,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1870,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1870,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1870,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049"
+    },
+    {
+      "year": 1870,
+      "county": "Holmes",
+      "count": 2,
+      "fips": "28051"
+    },
+    {
+      "year": 1870,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1870,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1870,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1870,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1870,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1870,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1870,
+      "county": "Jefferson",
+      "count": 1,
+      "fips": "28063"
+    },
+    {
+      "year": 1870,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1870,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1870,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1870,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1870,
+      "county": "Lauderdale",
+      "count": 1,
+      "fips": "28075"
+    },
+    {
+      "year": 1870,
+      "county": "Lawrence",
+      "count": 1,
+      "fips": "28077"
+    },
+    {
+      "year": 1870,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1870,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1870,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1870,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1870,
+      "county": "Lowndes",
+      "count": 2,
+      "fips": "28087"
+    },
+    {
+      "year": 1870,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089"
+    },
+    {
+      "year": 1870,
+      "county": "Marion",
+      "count": 1,
+      "fips": "28091"
+    },
+    {
+      "year": 1870,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1870,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095"
+    },
+    {
+      "year": 1870,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1870,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1870,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1870,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103"
+    },
+    {
+      "year": 1870,
+      "county": "Oktibbeha",
+      "count": 2,
+      "fips": "28105"
+    },
+    {
+      "year": 1870,
+      "county": "Panola",
+      "count": 2,
+      "fips": "28107"
+    },
+    {
+      "year": 1870,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1870,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1870,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1870,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1870,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1870,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1870,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1870,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1870,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1870,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1870,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1870,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1870,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1870,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1870,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1870,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1870,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1870,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1870,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1870,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1870,
+      "county": "Warren",
+      "count": 4,
+      "fips": "28149"
+    },
+    {
+      "year": 1870,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151"
+    },
+    {
+      "year": 1870,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1870,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1870,
+      "county": "Wilkinson",
+      "count": 2,
+      "fips": "28157"
+    },
+    {
+      "year": 1870,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1870,
+      "county": "Yazoo",
+      "count": 1,
+      "fips": "28163"
+    },
+    {
+      "year": 1870,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1872,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001"
+    },
+    {
+      "year": 1872,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1872,
+      "county": "Amite",
+      "count": 1,
+      "fips": "28005"
+    },
+    {
+      "year": 1872,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1872,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1872,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1872,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1872,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1872,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1872,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1872,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021"
+    },
+    {
+      "year": 1872,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1872,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1872,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1872,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029"
+    },
+    {
+      "year": 1872,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1872,
+      "county": "DeSoto",
+      "count": 2,
+      "fips": "28033"
+    },
+    {
+      "year": 1872,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1872,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1872,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1872,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1872,
+      "county": "Grenada",
+      "count": 1,
+      "fips": "28043"
+    },
+    {
+      "year": 1872,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1872,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1872,
+      "county": "Hinds",
+      "count": 5,
+      "fips": "28049"
+    },
+    {
+      "year": 1872,
+      "county": "Holmes",
+      "count": 3,
+      "fips": "28051"
+    },
+    {
+      "year": 1872,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1872,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055"
+    },
+    {
+      "year": 1872,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1872,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1872,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1872,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1872,
+      "county": "Jefferson",
+      "count": 3,
+      "fips": "28063"
+    },
+    {
+      "year": 1872,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1872,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1872,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1872,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1872,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1872,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1872,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1872,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1872,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083"
+    },
+    {
+      "year": 1872,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1872,
+      "county": "Lowndes",
+      "count": 1,
+      "fips": "28087"
+    },
+    {
+      "year": 1872,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089"
+    },
+    {
+      "year": 1872,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1872,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093"
+    },
+    {
+      "year": 1872,
+      "county": "Monroe",
+      "count": 2,
+      "fips": "28095"
+    },
+    {
+      "year": 1872,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1872,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1872,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1872,
+      "county": "Noxubee",
+      "count": 2,
+      "fips": "28103"
+    },
+    {
+      "year": 1872,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105"
+    },
+    {
+      "year": 1872,
+      "county": "Panola",
+      "count": 2,
+      "fips": "28107"
+    },
+    {
+      "year": 1872,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1872,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1872,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1872,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1872,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1872,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1872,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1872,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1872,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1872,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1872,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1872,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1872,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133"
+    },
+    {
+      "year": 1872,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1872,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1872,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1872,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1872,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143"
+    },
+    {
+      "year": 1872,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1872,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1872,
+      "county": "Warren",
+      "count": 5,
+      "fips": "28149"
+    },
+    {
+      "year": 1872,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151"
+    },
+    {
+      "year": 1872,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1872,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1872,
+      "county": "Wilkinson",
+      "count": 2,
+      "fips": "28157"
+    },
+    {
+      "year": 1872,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1872,
+      "county": "Yazoo",
+      "count": 2,
+      "fips": "28163"
+    },
+    {
+      "year": 1872,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1874,
+      "county": "Adams",
+      "count": 5,
+      "fips": "28001"
+    },
+    {
+      "year": 1874,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1874,
+      "county": "Amite",
+      "count": 1,
+      "fips": "28005"
+    },
+    {
+      "year": 1874,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1874,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1874,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1874,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1874,
+      "county": "Carroll",
+      "count": 1,
+      "fips": "28015"
+    },
+    {
+      "year": 1874,
+      "county": "Chickasaw",
+      "count": 3,
+      "fips": "28017"
+    },
+    {
+      "year": 1874,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1874,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021"
+    },
+    {
+      "year": 1874,
+      "county": "Clarke",
+      "count": 1,
+      "fips": "28023"
+    },
+    {
+      "year": 1874,
+      "county": "Clay",
+      "count": 1,
+      "fips": "28025"
+    },
+    {
+      "year": 1874,
+      "county": "Coahoma",
+      "count": 2,
+      "fips": "28027"
+    },
+    {
+      "year": 1874,
+      "county": "Copiah",
+      "count": 1,
+      "fips": "28029"
+    },
+    {
+      "year": 1874,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1874,
+      "county": "DeSoto",
+      "count": 2,
+      "fips": "28033"
+    },
+    {
+      "year": 1874,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1874,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1874,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1874,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1874,
+      "county": "Grenada",
+      "count": 1,
+      "fips": "28043"
+    },
+    {
+      "year": 1874,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1874,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1874,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049"
+    },
+    {
+      "year": 1874,
+      "county": "Holmes",
+      "count": 3,
+      "fips": "28051"
+    },
+    {
+      "year": 1874,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1874,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055"
+    },
+    {
+      "year": 1874,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1874,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1874,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1874,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1874,
+      "county": "Jefferson",
+      "count": 2,
+      "fips": "28063"
+    },
+    {
+      "year": 1874,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1874,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1874,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1874,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1874,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1874,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1874,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1874,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1874,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083"
+    },
+    {
+      "year": 1874,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1874,
+      "county": "Lowndes",
+      "count": 4,
+      "fips": "28087"
+    },
+    {
+      "year": 1874,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089"
+    },
+    {
+      "year": 1874,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1874,
+      "county": "Marshall",
+      "count": 4,
+      "fips": "28093"
+    },
+    {
+      "year": 1874,
+      "county": "Monroe",
+      "count": 3,
+      "fips": "28095"
+    },
+    {
+      "year": 1874,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1874,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1874,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1874,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103"
+    },
+    {
+      "year": 1874,
+      "county": "Oktibbeha",
+      "count": 2,
+      "fips": "28105"
+    },
+    {
+      "year": 1874,
+      "county": "Panola",
+      "count": 4,
+      "fips": "28107"
+    },
+    {
+      "year": 1874,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1874,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1874,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1874,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1874,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1874,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1874,
+      "county": "Rankin",
+      "count": 2,
+      "fips": "28121"
+    },
+    {
+      "year": 1874,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1874,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1874,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1874,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1874,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1874,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133"
+    },
+    {
+      "year": 1874,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1874,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1874,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1874,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1874,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143"
+    },
+    {
+      "year": 1874,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1874,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1874,
+      "county": "Warren",
+      "count": 5,
+      "fips": "28149"
+    },
+    {
+      "year": 1874,
+      "county": "Washington",
+      "count": 4,
+      "fips": "28151"
+    },
+    {
+      "year": 1874,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1874,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1874,
+      "county": "Wilkinson",
+      "count": 3,
+      "fips": "28157"
+    },
+    {
+      "year": 1874,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1874,
+      "county": "Yazoo",
+      "count": 2,
+      "fips": "28163"
+    },
+    {
+      "year": 1874,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1876,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001"
+    },
+    {
+      "year": 1876,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1876,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1876,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1876,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1876,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1876,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1876,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1876,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017"
+    },
+    {
+      "year": 1876,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1876,
+      "county": "Claiborne",
+      "count": 2,
+      "fips": "28021"
+    },
+    {
+      "year": 1876,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1876,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1876,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027"
+    },
+    {
+      "year": 1876,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1876,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1876,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1876,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1876,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1876,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1876,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1876,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1876,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1876,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1876,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1876,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1876,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1876,
+      "county": "Issaquena",
+      "count": 2,
+      "fips": "28055"
+    },
+    {
+      "year": 1876,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1876,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1876,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1876,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1876,
+      "county": "Jefferson",
+      "count": 2,
+      "fips": "28063"
+    },
+    {
+      "year": 1876,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1876,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1876,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1876,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1876,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1876,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1876,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1876,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1876,
+      "county": "Leflore",
+      "count": 1,
+      "fips": "28083"
+    },
+    {
+      "year": 1876,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1876,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1876,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089"
+    },
+    {
+      "year": 1876,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1876,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093"
+    },
+    {
+      "year": 1876,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095"
+    },
+    {
+      "year": 1876,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1876,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1876,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1876,
+      "county": "Noxubee",
+      "count": 3,
+      "fips": "28103"
+    },
+    {
+      "year": 1876,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105"
+    },
+    {
+      "year": 1876,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107"
+    },
+    {
+      "year": 1876,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1876,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1876,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1876,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1876,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1876,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1876,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1876,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1876,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1876,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1876,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1876,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1876,
+      "county": "Sunflower",
+      "count": 1,
+      "fips": "28133"
+    },
+    {
+      "year": 1876,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1876,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1876,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1876,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1876,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143"
+    },
+    {
+      "year": 1876,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1876,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1876,
+      "county": "Warren",
+      "count": 3,
+      "fips": "28149"
+    },
+    {
+      "year": 1876,
+      "county": "Washington",
+      "count": 2,
+      "fips": "28151"
+    },
+    {
+      "year": 1876,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1876,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1876,
+      "county": "Wilkinson",
+      "count": 3,
+      "fips": "28157"
+    },
+    {
+      "year": 1876,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1876,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1876,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1878,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001"
+    },
+    {
+      "year": 1878,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1878,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1878,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1878,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1878,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1878,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1878,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1878,
+      "county": "Chickasaw",
+      "count": 1,
+      "fips": "28017"
+    },
+    {
+      "year": 1878,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1878,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1878,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1878,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1878,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1878,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1878,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1878,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1878,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1878,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1878,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1878,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1878,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1878,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1878,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1878,
+      "county": "Hinds",
+      "count": 1,
+      "fips": "28049"
+    },
+    {
+      "year": 1878,
+      "county": "Holmes",
+      "count": 2,
+      "fips": "28051"
+    },
+    {
+      "year": 1878,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1878,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1878,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1878,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1878,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1878,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1878,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1878,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1878,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1878,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1878,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1878,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1878,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1878,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1878,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1878,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1878,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1878,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1878,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089"
+    },
+    {
+      "year": 1878,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1878,
+      "county": "Marshall",
+      "count": 2,
+      "fips": "28093"
+    },
+    {
+      "year": 1878,
+      "county": "Monroe",
+      "count": 1,
+      "fips": "28095"
+    },
+    {
+      "year": 1878,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1878,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1878,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1878,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1878,
+      "county": "Oktibbeha",
+      "count": 1,
+      "fips": "28105"
+    },
+    {
+      "year": 1878,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107"
+    },
+    {
+      "year": 1878,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1878,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1878,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1878,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1878,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1878,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1878,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1878,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1878,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1878,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1878,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1878,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1878,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1878,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1878,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1878,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1878,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1878,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1878,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1878,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1878,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1878,
+      "county": "Washington",
+      "count": 0,
+      "fips": "28151"
+    },
+    {
+      "year": 1878,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1878,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1878,
+      "county": "Wilkinson",
+      "count": 1,
+      "fips": "28157"
+    },
+    {
+      "year": 1878,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1878,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1878,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1880,
+      "county": "Adams",
+      "count": 3,
+      "fips": "28001"
+    },
+    {
+      "year": 1880,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1880,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1880,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1880,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1880,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1880,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1880,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1880,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1880,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1880,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1880,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1880,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1880,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1880,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1880,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1880,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1880,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1880,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1880,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1880,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1880,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1880,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1880,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1880,
+      "county": "Hinds",
+      "count": 1,
+      "fips": "28049"
+    },
+    {
+      "year": 1880,
+      "county": "Holmes",
+      "count": 1,
+      "fips": "28051"
+    },
+    {
+      "year": 1880,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1880,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1880,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1880,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1880,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1880,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1880,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1880,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1880,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1880,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1880,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1880,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1880,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1880,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1880,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1880,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1880,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1880,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1880,
+      "county": "Madison",
+      "count": 0,
+      "fips": "28089"
+    },
+    {
+      "year": 1880,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1880,
+      "county": "Marshall",
+      "count": 1,
+      "fips": "28093"
+    },
+    {
+      "year": 1880,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1880,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1880,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1880,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1880,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1880,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1880,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107"
+    },
+    {
+      "year": 1880,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1880,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1880,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1880,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1880,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1880,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1880,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1880,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1880,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1880,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1880,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1880,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1880,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1880,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1880,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1880,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1880,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1880,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1880,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1880,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1880,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1880,
+      "county": "Washington",
+      "count": 0,
+      "fips": "28151"
+    },
+    {
+      "year": 1880,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1880,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1880,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1880,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1880,
+      "county": "Yazoo",
+      "count": 1,
+      "fips": "28163"
+    },
+    {
+      "year": 1880,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1882,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001"
+    },
+    {
+      "year": 1882,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1882,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1882,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1882,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1882,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1882,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1882,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1882,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1882,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1882,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1882,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1882,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1882,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1882,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1882,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1882,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1882,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1882,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1882,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1882,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1882,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1882,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1882,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1882,
+      "county": "Hinds",
+      "count": 2,
+      "fips": "28049"
+    },
+    {
+      "year": 1882,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1882,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1882,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1882,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1882,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1882,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1882,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1882,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1882,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1882,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1882,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1882,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1882,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1882,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1882,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1882,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1882,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1882,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1882,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1882,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089"
+    },
+    {
+      "year": 1882,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1882,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1882,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1882,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1882,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1882,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1882,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1882,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1882,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107"
+    },
+    {
+      "year": 1882,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1882,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1882,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1882,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1882,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1882,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1882,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1882,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1882,
+      "county": "Sharkey",
+      "count": 0,
+      "fips": "28125"
+    },
+    {
+      "year": 1882,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1882,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1882,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1882,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1882,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1882,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1882,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1882,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1882,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1882,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1882,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1882,
+      "county": "Warren",
+      "count": 2,
+      "fips": "28149"
+    },
+    {
+      "year": 1882,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151"
+    },
+    {
+      "year": 1882,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1882,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1882,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1882,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1882,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1882,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1884,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001"
+    },
+    {
+      "year": 1884,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1884,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1884,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1884,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1884,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1884,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1884,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1884,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1884,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1884,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1884,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1884,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1884,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027"
+    },
+    {
+      "year": 1884,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1884,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1884,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1884,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1884,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1884,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1884,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1884,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1884,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1884,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1884,
+      "county": "Hinds",
+      "count": 3,
+      "fips": "28049"
+    },
+    {
+      "year": 1884,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1884,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1884,
+      "county": "Issaquena",
+      "count": 3,
+      "fips": "28055"
+    },
+    {
+      "year": 1884,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1884,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1884,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1884,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1884,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1884,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1884,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1884,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1884,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1884,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1884,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1884,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1884,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1884,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1884,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1884,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1884,
+      "county": "Madison",
+      "count": 2,
+      "fips": "28089"
+    },
+    {
+      "year": 1884,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1884,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1884,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1884,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1884,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1884,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1884,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1884,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1884,
+      "county": "Panola",
+      "count": 1,
+      "fips": "28107"
+    },
+    {
+      "year": 1884,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1884,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1884,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1884,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1884,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1884,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1884,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1884,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1884,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125"
+    },
+    {
+      "year": 1884,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1884,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1884,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1884,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1884,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1884,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1884,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1884,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1884,
+      "county": "Tunica",
+      "count": 1,
+      "fips": "28143"
+    },
+    {
+      "year": 1884,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1884,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1884,
+      "county": "Warren",
+      "count": 1,
+      "fips": "28149"
+    },
+    {
+      "year": 1884,
+      "county": "Washington",
+      "count": 3,
+      "fips": "28151"
+    },
+    {
+      "year": 1884,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1884,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1884,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1884,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1884,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1884,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1886,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001"
+    },
+    {
+      "year": 1886,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1886,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1886,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1886,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1886,
+      "county": "Bolivar",
+      "count": 2,
+      "fips": "28011"
+    },
+    {
+      "year": 1886,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1886,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1886,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1886,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1886,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1886,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1886,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1886,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027"
+    },
+    {
+      "year": 1886,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1886,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1886,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1886,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1886,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1886,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1886,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1886,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1886,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1886,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1886,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1886,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1886,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1886,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1886,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1886,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1886,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1886,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1886,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1886,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1886,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1886,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1886,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1886,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1886,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1886,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1886,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1886,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1886,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1886,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1886,
+      "county": "Madison",
+      "count": 1,
+      "fips": "28089"
+    },
+    {
+      "year": 1886,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1886,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1886,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1886,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1886,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1886,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1886,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1886,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1886,
+      "county": "Panola",
+      "count": 0,
+      "fips": "28107"
+    },
+    {
+      "year": 1886,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1886,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1886,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1886,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1886,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1886,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1886,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1886,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1886,
+      "county": "Sharkey",
+      "count": 2,
+      "fips": "28125"
+    },
+    {
+      "year": 1886,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1886,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1886,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1886,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1886,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1886,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1886,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1886,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1886,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1886,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1886,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1886,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1886,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151"
+    },
+    {
+      "year": 1886,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1886,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1886,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1886,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1886,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1886,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1888,
+      "county": "Adams",
+      "count": 2,
+      "fips": "28001"
+    },
+    {
+      "year": 1888,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1888,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1888,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1888,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1888,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1888,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1888,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1888,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1888,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1888,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1888,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1888,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1888,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027"
+    },
+    {
+      "year": 1888,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1888,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1888,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1888,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1888,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1888,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1888,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1888,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1888,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1888,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1888,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1888,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1888,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1888,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1888,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1888,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1888,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1888,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1888,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1888,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1888,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1888,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1888,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1888,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1888,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1888,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1888,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1888,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1888,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1888,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1888,
+      "county": "Madison",
+      "count": 0,
+      "fips": "28089"
+    },
+    {
+      "year": 1888,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1888,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1888,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1888,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1888,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1888,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1888,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1888,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1888,
+      "county": "Panola",
+      "count": 0,
+      "fips": "28107"
+    },
+    {
+      "year": 1888,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1888,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1888,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1888,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1888,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1888,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1888,
+      "county": "Rankin",
+      "count": 1,
+      "fips": "28121"
+    },
+    {
+      "year": 1888,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1888,
+      "county": "Sharkey",
+      "count": 2,
+      "fips": "28125"
+    },
+    {
+      "year": 1888,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1888,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1888,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1888,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1888,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1888,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1888,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1888,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1888,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1888,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1888,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1888,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1888,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151"
+    },
+    {
+      "year": 1888,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1888,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1888,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1888,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1888,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1888,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1890,
+      "county": "Adams",
+      "count": 1,
+      "fips": "28001"
+    },
+    {
+      "year": 1890,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1890,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1890,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1890,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1890,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1890,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1890,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1890,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1890,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1890,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1890,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1890,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1890,
+      "county": "Coahoma",
+      "count": 1,
+      "fips": "28027"
+    },
+    {
+      "year": 1890,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1890,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1890,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1890,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1890,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1890,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1890,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1890,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1890,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1890,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1890,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1890,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1890,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1890,
+      "county": "Issaquena",
+      "count": 1,
+      "fips": "28055"
+    },
+    {
+      "year": 1890,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1890,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1890,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1890,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1890,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1890,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1890,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1890,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1890,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1890,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1890,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1890,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1890,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1890,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1890,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1890,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1890,
+      "county": "Madison",
+      "count": 0,
+      "fips": "28089"
+    },
+    {
+      "year": 1890,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1890,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1890,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1890,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1890,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1890,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1890,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1890,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1890,
+      "county": "Panola",
+      "count": 0,
+      "fips": "28107"
+    },
+    {
+      "year": 1890,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1890,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1890,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1890,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1890,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1890,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1890,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1890,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1890,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125"
+    },
+    {
+      "year": 1890,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1890,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1890,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1890,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1890,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1890,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1890,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1890,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1890,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1890,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1890,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1890,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1890,
+      "county": "Washington",
+      "count": 1,
+      "fips": "28151"
+    },
+    {
+      "year": 1890,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1890,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1890,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1890,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1890,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1890,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1892,
+      "county": "Adams",
+      "count": 0,
+      "fips": "28001"
+    },
+    {
+      "year": 1892,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1892,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1892,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1892,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1892,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1892,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1892,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1892,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1892,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1892,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1892,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1892,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1892,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1892,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1892,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1892,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1892,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1892,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1892,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1892,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1892,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1892,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1892,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1892,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1892,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1892,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1892,
+      "county": "Issaquena",
+      "count": 0,
+      "fips": "28055"
+    },
+    {
+      "year": 1892,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1892,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1892,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1892,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1892,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1892,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1892,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1892,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1892,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1892,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1892,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1892,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1892,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1892,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1892,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1892,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1892,
+      "county": "Madison",
+      "count": 0,
+      "fips": "28089"
+    },
+    {
+      "year": 1892,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1892,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1892,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1892,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1892,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1892,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1892,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1892,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1892,
+      "county": "Panola",
+      "count": 0,
+      "fips": "28107"
+    },
+    {
+      "year": 1892,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1892,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1892,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1892,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1892,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1892,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1892,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1892,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1892,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125"
+    },
+    {
+      "year": 1892,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1892,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1892,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1892,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1892,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1892,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1892,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1892,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1892,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1892,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1892,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1892,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1892,
+      "county": "Washington",
+      "count": 0,
+      "fips": "28151"
+    },
+    {
+      "year": 1892,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1892,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1892,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1892,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1892,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1892,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    },
+    {
+      "year": 1894,
+      "county": "Adams",
+      "count": 0,
+      "fips": "28001"
+    },
+    {
+      "year": 1894,
+      "county": "Alcorn",
+      "count": 0,
+      "fips": "28003"
+    },
+    {
+      "year": 1894,
+      "county": "Amite",
+      "count": 0,
+      "fips": "28005"
+    },
+    {
+      "year": 1894,
+      "county": "Attala",
+      "count": 0,
+      "fips": "28007"
+    },
+    {
+      "year": 1894,
+      "county": "Benton",
+      "count": 0,
+      "fips": "28009"
+    },
+    {
+      "year": 1894,
+      "county": "Bolivar",
+      "count": 1,
+      "fips": "28011"
+    },
+    {
+      "year": 1894,
+      "county": "Calhoun",
+      "count": 0,
+      "fips": "28013"
+    },
+    {
+      "year": 1894,
+      "county": "Carroll",
+      "count": 0,
+      "fips": "28015"
+    },
+    {
+      "year": 1894,
+      "county": "Chickasaw",
+      "count": 0,
+      "fips": "28017"
+    },
+    {
+      "year": 1894,
+      "county": "Choctaw",
+      "count": 0,
+      "fips": "28019"
+    },
+    {
+      "year": 1894,
+      "county": "Claiborne",
+      "count": 0,
+      "fips": "28021"
+    },
+    {
+      "year": 1894,
+      "county": "Clarke",
+      "count": 0,
+      "fips": "28023"
+    },
+    {
+      "year": 1894,
+      "county": "Clay",
+      "count": 0,
+      "fips": "28025"
+    },
+    {
+      "year": 1894,
+      "county": "Coahoma",
+      "count": 0,
+      "fips": "28027"
+    },
+    {
+      "year": 1894,
+      "county": "Copiah",
+      "count": 0,
+      "fips": "28029"
+    },
+    {
+      "year": 1894,
+      "county": "Covington",
+      "count": 0,
+      "fips": "28031"
+    },
+    {
+      "year": 1894,
+      "county": "DeSoto",
+      "count": 0,
+      "fips": "28033"
+    },
+    {
+      "year": 1894,
+      "county": "Forrest",
+      "count": 0,
+      "fips": "28035"
+    },
+    {
+      "year": 1894,
+      "county": "Franklin",
+      "count": 0,
+      "fips": "28037"
+    },
+    {
+      "year": 1894,
+      "county": "George",
+      "count": 0,
+      "fips": "28039"
+    },
+    {
+      "year": 1894,
+      "county": "Greene",
+      "count": 0,
+      "fips": "28041"
+    },
+    {
+      "year": 1894,
+      "county": "Grenada",
+      "count": 0,
+      "fips": "28043"
+    },
+    {
+      "year": 1894,
+      "county": "Hancock",
+      "count": 0,
+      "fips": "28045"
+    },
+    {
+      "year": 1894,
+      "county": "Harrison",
+      "count": 0,
+      "fips": "28047"
+    },
+    {
+      "year": 1894,
+      "county": "Hinds",
+      "count": 0,
+      "fips": "28049"
+    },
+    {
+      "year": 1894,
+      "county": "Holmes",
+      "count": 0,
+      "fips": "28051"
+    },
+    {
+      "year": 1894,
+      "county": "Humphreys",
+      "count": 0,
+      "fips": "28053"
+    },
+    {
+      "year": 1894,
+      "county": "Issaquena",
+      "count": 0,
+      "fips": "28055"
+    },
+    {
+      "year": 1894,
+      "county": "Itawamba",
+      "count": 0,
+      "fips": "28057"
+    },
+    {
+      "year": 1894,
+      "county": "Jackson",
+      "count": 0,
+      "fips": "28059"
+    },
+    {
+      "year": 1894,
+      "county": "Jasper",
+      "count": 0,
+      "fips": "28061"
+    },
+    {
+      "year": 1894,
+      "county": "Jefferson Davis",
+      "count": 0,
+      "fips": "28065"
+    },
+    {
+      "year": 1894,
+      "county": "Jefferson",
+      "count": 0,
+      "fips": "28063"
+    },
+    {
+      "year": 1894,
+      "county": "Jones",
+      "count": 0,
+      "fips": "28067"
+    },
+    {
+      "year": 1894,
+      "county": "Kemper",
+      "count": 0,
+      "fips": "28069"
+    },
+    {
+      "year": 1894,
+      "county": "Lafayette",
+      "count": 0,
+      "fips": "28071"
+    },
+    {
+      "year": 1894,
+      "county": "Lamar",
+      "count": 0,
+      "fips": "28073"
+    },
+    {
+      "year": 1894,
+      "county": "Lauderdale",
+      "count": 0,
+      "fips": "28075"
+    },
+    {
+      "year": 1894,
+      "county": "Lawrence",
+      "count": 0,
+      "fips": "28077"
+    },
+    {
+      "year": 1894,
+      "county": "Leake",
+      "count": 0,
+      "fips": "28079"
+    },
+    {
+      "year": 1894,
+      "county": "Lee",
+      "count": 0,
+      "fips": "28081"
+    },
+    {
+      "year": 1894,
+      "county": "Leflore",
+      "count": 0,
+      "fips": "28083"
+    },
+    {
+      "year": 1894,
+      "county": "Lincoln",
+      "count": 0,
+      "fips": "28085"
+    },
+    {
+      "year": 1894,
+      "county": "Lowndes",
+      "count": 0,
+      "fips": "28087"
+    },
+    {
+      "year": 1894,
+      "county": "Madison",
+      "count": 0,
+      "fips": "28089"
+    },
+    {
+      "year": 1894,
+      "county": "Marion",
+      "count": 0,
+      "fips": "28091"
+    },
+    {
+      "year": 1894,
+      "county": "Marshall",
+      "count": 0,
+      "fips": "28093"
+    },
+    {
+      "year": 1894,
+      "county": "Monroe",
+      "count": 0,
+      "fips": "28095"
+    },
+    {
+      "year": 1894,
+      "county": "Montgomery",
+      "count": 0,
+      "fips": "28097"
+    },
+    {
+      "year": 1894,
+      "county": "Neshoba",
+      "count": 0,
+      "fips": "28099"
+    },
+    {
+      "year": 1894,
+      "county": "Newton",
+      "count": 0,
+      "fips": "28101"
+    },
+    {
+      "year": 1894,
+      "county": "Noxubee",
+      "count": 0,
+      "fips": "28103"
+    },
+    {
+      "year": 1894,
+      "county": "Oktibbeha",
+      "count": 0,
+      "fips": "28105"
+    },
+    {
+      "year": 1894,
+      "county": "Panola",
+      "count": 0,
+      "fips": "28107"
+    },
+    {
+      "year": 1894,
+      "county": "Pearl River",
+      "count": 0,
+      "fips": "28109"
+    },
+    {
+      "year": 1894,
+      "county": "Perry",
+      "count": 0,
+      "fips": "28111"
+    },
+    {
+      "year": 1894,
+      "county": "Pike",
+      "count": 0,
+      "fips": "28113"
+    },
+    {
+      "year": 1894,
+      "county": "Pontotoc",
+      "count": 0,
+      "fips": "28115"
+    },
+    {
+      "year": 1894,
+      "county": "Prentiss",
+      "count": 0,
+      "fips": "28117"
+    },
+    {
+      "year": 1894,
+      "county": "Quitman",
+      "count": 0,
+      "fips": "28119"
+    },
+    {
+      "year": 1894,
+      "county": "Rankin",
+      "count": 0,
+      "fips": "28121"
+    },
+    {
+      "year": 1894,
+      "county": "Scott",
+      "count": 0,
+      "fips": "28123"
+    },
+    {
+      "year": 1894,
+      "county": "Sharkey",
+      "count": 1,
+      "fips": "28125"
+    },
+    {
+      "year": 1894,
+      "county": "Simpson",
+      "count": 0,
+      "fips": "28127"
+    },
+    {
+      "year": 1894,
+      "county": "Smith",
+      "count": 0,
+      "fips": "28129"
+    },
+    {
+      "year": 1894,
+      "county": "Stone",
+      "count": 0,
+      "fips": "28131"
+    },
+    {
+      "year": 1894,
+      "county": "Sunflower",
+      "count": 0,
+      "fips": "28133"
+    },
+    {
+      "year": 1894,
+      "county": "Tallahatchie",
+      "count": 0,
+      "fips": "28135"
+    },
+    {
+      "year": 1894,
+      "county": "Tate",
+      "count": 0,
+      "fips": "28137"
+    },
+    {
+      "year": 1894,
+      "county": "Tippah",
+      "count": 0,
+      "fips": "28139"
+    },
+    {
+      "year": 1894,
+      "county": "Tishomingo",
+      "count": 0,
+      "fips": "28141"
+    },
+    {
+      "year": 1894,
+      "county": "Tunica",
+      "count": 0,
+      "fips": "28143"
+    },
+    {
+      "year": 1894,
+      "county": "Union",
+      "count": 0,
+      "fips": "28145"
+    },
+    {
+      "year": 1894,
+      "county": "Walthall",
+      "count": 0,
+      "fips": "28147"
+    },
+    {
+      "year": 1894,
+      "county": "Warren",
+      "count": 0,
+      "fips": "28149"
+    },
+    {
+      "year": 1894,
+      "county": "Washington",
+      "count": 0,
+      "fips": "28151"
+    },
+    {
+      "year": 1894,
+      "county": "Wayne",
+      "count": 0,
+      "fips": "28153"
+    },
+    {
+      "year": 1894,
+      "county": "Webster",
+      "count": 0,
+      "fips": "28155"
+    },
+    {
+      "year": 1894,
+      "county": "Wilkinson",
+      "count": 0,
+      "fips": "28157"
+    },
+    {
+      "year": 1894,
+      "county": "Winston",
+      "count": 0,
+      "fips": "28159"
+    },
+    {
+      "year": 1894,
+      "county": "Yazoo",
+      "count": 0,
+      "fips": "28163"
+    },
+    {
+      "year": 1894,
+      "county": "Yalobusha",
+      "count": 0,
+      "fips": "28161"
+    }
+  ]
+}
