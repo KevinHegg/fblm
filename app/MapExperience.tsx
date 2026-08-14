@@ -219,6 +219,7 @@ export function MapExperience() {
               window.clearTimeout(initialCameraSettleTimer);
               initialCameraSettleTimer = undefined;
             }
+            map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
             mapContainer.current?.classList.remove("map--booting");
             refreshMapCanvas();
           };
