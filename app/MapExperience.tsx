@@ -475,7 +475,7 @@ export function MapExperience() {
               <span className="legend__dot">3</span>
               <span className="legend__copy">
                 <span>Circle size and number show legislators serving that county</span>
-                <span>Hover over a circle for more information.</span>
+                <span>Hover for more details.</span>
               </span>
             </div>
           </div>
