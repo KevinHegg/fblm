@@ -35,6 +35,7 @@ export function MapExperience() {
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
   const [loadingError, setLoadingError] = useState("");
+  const [mapReady, setMapReady] = useState(false);
   const [embed, setEmbed] = useState(false);
 
   const year = counts?.years[yearIndex] ?? 1870;
@@ -128,6 +129,8 @@ export function MapExperience() {
         map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-left");
 
         map.on("load", () => {
+          setMapReady(true);
+          setLoadingError("");
           map.fitBounds([[-91.72, 30.08], [-88.02, 35.08]], { padding: 28, duration: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
           map.addLayer({
@@ -260,7 +263,7 @@ export function MapExperience() {
         <div className="map-layout">
           <div className="map-wrap">
             <div ref={mapContainer} className="map" aria-label={`Map of Black legislators by Mississippi county in ${year}`} />
-            {loadingError && <div className="map-message" role="status">{loadingError}</div>}
+            {loadingError && !mapReady && <div className="map-message" role="status">{loadingError}</div>}
             <div className="legend"><span className="legend__dot">3</span><span>Circle size and number show legislators serving that county</span></div>
           </div>
           <aside className="detail-panel" aria-live="polite">
