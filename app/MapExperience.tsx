@@ -17,7 +17,7 @@ type CountyProperties = {
 type CountyCollection = GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.MultiPolygon, CountyProperties>;
 
 const COMPANION_URL = "https://much-ado.net/legislators/";
-const MISSISSIPPI_BOUNDS: [[number, number], [number, number]] = [[-91.72, 30.08], [-88.02, 35.08]];
+const MISSISSIPPI_BOUNDS: [[number, number], [number, number]] = [[-91.85, 29.72], [-87.95, 35.15]];
 
 function surnameFirst(name: string) {
   const parts = name.trim().split(/\s+/);
@@ -188,7 +188,7 @@ export function MapExperience() {
             id: "county-fill",
             type: "fill",
             source: "counties",
-            paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.2 },
+            paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.07 },
           });
           map.addLayer({
             id: "county-lines",
@@ -196,6 +196,44 @@ export function MapExperience() {
             source: "counties",
             paint: { "line-color": "#8a7e70", "line-opacity": 0.5, "line-width": 0.8 },
           });
+          map.addSource("fblm-terrain", {
+            type: "raster-dem",
+            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+            tileSize: 512,
+            maxzoom: 14,
+          });
+          map.setTerrain({ source: "fblm-terrain", exaggeration: 0.35 });
+          map.addLayer({
+            id: "fblm-hillshade",
+            type: "hillshade",
+            source: "fblm-terrain",
+            paint: {
+              "hillshade-exaggeration": 0.52,
+              "hillshade-shadow-color": "#6f6254",
+              "hillshade-highlight-color": "#fffaf1",
+              "hillshade-accent-color": "#a49787",
+            },
+          }, "county-fill");
+          if (map.getSource("composite")) {
+            map.addLayer({
+              id: "fblm-water",
+              type: "fill",
+              source: "composite",
+              "source-layer": "water",
+              paint: { "fill-color": "#8fc5d3", "fill-opacity": 0.86 },
+            }, "county-fill");
+            map.addLayer({
+              id: "fblm-waterways",
+              type: "line",
+              source: "composite",
+              "source-layer": "waterway",
+              paint: {
+                "line-color": "#69aabd",
+                "line-opacity": 0.84,
+                "line-width": ["interpolate", ["linear"], ["zoom"], 5, 0.8, 9, 1.5],
+              },
+            }, "county-fill");
+          }
           const countyLabelData: GeoJSON.FeatureCollection<GeoJSON.Point> = {
             type: "FeatureCollection",
             features: countyData.features.map((county) => ({
@@ -214,13 +252,13 @@ export function MapExperience() {
             source: "county-labels",
             layout: {
               "text-field": ["get", "name"],
-              "text-size": 9,
+              "text-size": 9.3,
               "text-font": ["DIN Pro Regular", "Arial Unicode MS Regular"],
               "text-allow-overlap": false,
             },
             paint: {
-              "text-color": "#514a43",
-              "text-opacity": 0.48,
+              "text-color": "#3f3832",
+              "text-opacity": 0.68,
               "text-halo-color": "#fffaf1",
               "text-halo-width": 1.1,
             },
