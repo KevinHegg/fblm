@@ -171,6 +171,8 @@ export function MapExperience() {
   useEffect(() => {
     if (!counties || !counts || !mapContainer.current || mapRef.current) return;
     let cancelled = false;
+    let resizeObserver: ResizeObserver | undefined;
+    let initialRenderTimer: number | undefined;
     const base = detectAssetBase();
     const countyData = counties;
     const countsData = counts;
@@ -198,6 +200,13 @@ export function MapExperience() {
           logoPosition: "bottom-right",
         });
         mapRef.current = map;
+        const refreshMapCanvas = () => {
+          if (cancelled) return;
+          map.resize();
+          map.triggerRepaint();
+        };
+        resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
+        resizeObserver.observe(mapContainer.current);
         popupRef.current = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 18 });
         map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-left");
         map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
@@ -205,7 +214,6 @@ export function MapExperience() {
         map.on("load", () => {
           setMapReady(true);
           setLoadingError("");
-          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
           [
             "waterway-shadow",
@@ -338,6 +346,10 @@ export function MapExperience() {
             const fips = (event.features?.[0] as unknown as { properties?: { fips?: string } })?.properties?.fips;
             if (fips) setSelectedFips(String(fips));
           });
+          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
+          window.requestAnimationFrame(() => window.requestAnimationFrame(refreshMapCanvas));
+          initialRenderTimer = window.setTimeout(refreshMapCanvas, 300);
+          map.once("idle", refreshMapCanvas);
         });
         map.on("error", (event) => {
           const message = String(event.error?.message ?? "");
@@ -348,7 +360,13 @@ export function MapExperience() {
       }
     }
     initializeMap();
-    return () => { cancelled = true; mapRef.current?.remove(); mapRef.current = null; };
+    return () => {
+      cancelled = true;
+      resizeObserver?.disconnect();
+      if (initialRenderTimer !== undefined) window.clearTimeout(initialRenderTimer);
+      mapRef.current?.remove();
+      mapRef.current = null;
+    };
   }, [counties, counts, pointData]);
 
   useEffect(() => {
