@@ -208,12 +208,12 @@ export function MapExperience() {
         const forceInitialCameraFrame = () => {
           if (cancelled) return;
           const settledZoom = map.getZoom();
-          map.jumpTo({ zoom: settledZoom + 0.0001 });
-          window.requestAnimationFrame(() => {
+          map.once("render", () => {
             if (cancelled) return;
             map.jumpTo({ zoom: settledZoom });
             map.triggerRepaint();
           });
+          map.jumpTo({ zoom: settledZoom + 1 });
         };
         resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
         resizeObserver.observe(mapContainer.current);
