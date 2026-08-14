@@ -201,6 +201,7 @@ export function MapExperience() {
           logoPosition: "bottom-right",
         });
         mapRef.current = map;
+        mapContainer.current.classList.add("map--booting");
         const refreshMapCanvas = () => {
           if (cancelled) return;
           map.resize();
@@ -212,18 +213,35 @@ export function MapExperience() {
           initialCameraCycleStarted = true;
           const settledCenter = map.getCenter();
           const settledZoom = map.getZoom();
-          map.jumpTo({ zoom: settledZoom + 1 });
+          const revealSettledMap = () => {
+            if (cancelled) return;
+            if (initialCameraSettleTimer !== undefined) {
+              window.clearTimeout(initialCameraSettleTimer);
+              initialCameraSettleTimer = undefined;
+            }
+            mapContainer.current?.classList.remove("map--booting");
+            refreshMapCanvas();
+          };
+          map.once("moveend", () => {
+            if (cancelled) return;
+            map.once("moveend", revealSettledMap);
+            map.zoomTo(settledZoom, { duration: 250 });
+          });
+          map.zoomTo(settledZoom + 1, { duration: 250 });
           initialCameraSettleTimer = window.setTimeout(() => {
             if (cancelled) return;
+            map.stop();
             map.jumpTo({ center: settledCenter, zoom: settledZoom });
-            refreshMapCanvas();
-          }, 120);
+            revealSettledMap();
+          }, 1500);
         };
         resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
         resizeObserver.observe(mapContainer.current);
         popupRef.current = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 18 });
         map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-left");
         map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
+        initialRenderTimer = window.setTimeout(forceInitialCameraFrame, 350);
+        map.once("idle", forceInitialCameraFrame);
 
         map.on("load", () => {
           setMapReady(true);
@@ -362,8 +380,6 @@ export function MapExperience() {
           });
           map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
           window.requestAnimationFrame(() => window.requestAnimationFrame(refreshMapCanvas));
-          initialRenderTimer = window.setTimeout(forceInitialCameraFrame, 800);
-          map.once("idle", forceInitialCameraFrame);
         });
         map.on("error", (event) => {
           const message = String(event.error?.message ?? "");
