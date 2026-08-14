@@ -205,6 +205,16 @@ export function MapExperience() {
           map.resize();
           map.triggerRepaint();
         };
+        const forceInitialCameraFrame = () => {
+          if (cancelled) return;
+          const settledZoom = map.getZoom();
+          map.jumpTo({ zoom: settledZoom + 0.0001 });
+          window.requestAnimationFrame(() => {
+            if (cancelled) return;
+            map.jumpTo({ zoom: settledZoom });
+            map.triggerRepaint();
+          });
+        };
         resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
         resizeObserver.observe(mapContainer.current);
         popupRef.current = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 18 });
@@ -348,8 +358,8 @@ export function MapExperience() {
           });
           map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
           window.requestAnimationFrame(() => window.requestAnimationFrame(refreshMapCanvas));
-          initialRenderTimer = window.setTimeout(refreshMapCanvas, 300);
-          map.once("idle", refreshMapCanvas);
+          initialRenderTimer = window.setTimeout(forceInitialCameraFrame, 800);
+          map.once("idle", forceInitialCameraFrame);
         });
         map.on("error", (event) => {
           const message = String(event.error?.message ?? "");
