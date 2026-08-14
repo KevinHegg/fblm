@@ -109,7 +109,7 @@ export function MapExperience() {
       try {
         const [{ default: mapboxgl }, configResponse] = await Promise.all([
           import("mapbox-gl"),
-          fetch(`${base}/config.json`),
+          fetch(`${base}/${window.location.hostname === "localhost" ? "config.local.json" : "config.json"}`),
         ]);
         const config = await configResponse.json();
         if (!config.mapboxToken) throw new Error("token");
@@ -222,9 +222,13 @@ export function MapExperience() {
     <main className={embed ? "site site--embed" : "site"}>
       {!embed && (
         <header className="masthead">
-          <a className="eyebrow" href={COMPANION_URL} target="_blank" rel="noreferrer">The companion project ↗</a>
-          <h1><a href={COMPANION_URL} target="_blank" rel="noreferrer">Against All Odds: <em>The First Black Legislators in Mississippi</em></a></h1>
-          <p>Follow the rise, persistence, and forced retreat of Black political representation across Mississippi’s counties after emancipation.</p>
+          <h1>
+            <a href={COMPANION_URL} target="_blank" rel="noreferrer">
+              <strong>Against All Odds</strong>
+              <span>The First Black Legislators in Mississippi</span>
+            </a>
+          </h1>
+          <a className="project-link" href={COMPANION_URL} target="_blank" rel="noreferrer">Companion project ↗</a>
         </header>
       )}
 
@@ -295,12 +299,6 @@ export function MapExperience() {
         </div>
       </section>
 
-      {!embed && (
-        <footer>
-          <p>Counts from the project research workbook. Names and biographies from <a href={COMPANION_URL} target="_blank" rel="noreferrer">Against All Odds</a>. County boundaries: U.S. Census Bureau.</p>
-          <p>Use ← and → to change year; spacebar to play or pause.</p>
-        </footer>
-      )}
     </main>
   );
 }

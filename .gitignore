@@ -38,6 +38,7 @@ yarn-error.log*
 
 /dist/
 /dist-gh/
+/public/config.local.json
 /.wrangler/
 /outputs/
 /work/

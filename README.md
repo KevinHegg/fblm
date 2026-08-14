@@ -30,7 +30,7 @@ MAPBOX_TOKEN=pk.example node scripts/write-config.mjs
 npm run build:github
 ```
 
-For GitHub Pages, the token is stored as the repository Actions secret `MAPBOX_TOKEN`; the deployment workflow writes it into the built public configuration. The token is public/read-only and URL-restricted in Mapbox, but is not committed to the repository.
+For GitHub Pages, the public, read-only browser token is stored as the repository Actions secret `MAPBOX_TOKEN`; the deployment workflow writes it into the published configuration. Local development uses the ignored file `public/config.local.json`. The token’s Mapbox URL restrictions allow only the published project and the local development address.
 
 ## Data
 
