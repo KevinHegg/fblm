@@ -441,7 +441,13 @@ export function MapExperience() {
               </svg>
             </button>
             {loadingError && !mapReady && <div className="map-message" role="status">{loadingError}</div>}
-            <div className="legend"><span className="legend__dot">3</span><span>Circle size and number show legislators serving that county</span></div>
+            <div className="legend">
+              <span className="legend__dot">3</span>
+              <span className="legend__copy">
+                <span>Circle size and number show legislators serving that county</span>
+                <span>Hover over a circle for more information.</span>
+              </span>
+            </div>
           </div>
           <aside className="detail-panel" aria-live="polite">
             {selected ? (

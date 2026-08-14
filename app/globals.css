@@ -55,6 +55,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .map-message { position: absolute; top: 50%; left: 50%; width: min(340px, calc(100% - 40px)); transform: translate(-50%, -50%); padding: 20px; border: 1px solid var(--rule); background: rgba(255, 250, 241, 0.94); box-shadow: 0 8px 28px rgba(38, 31, 28, 0.12); text-align: center; }
 .legend { position: absolute; z-index: 1; bottom: 18px; left: 18px; display: flex; align-items: center; gap: 7px; max-width: 215px; padding: 6px 9px; border: 1px solid rgba(108, 98, 90, 0.28); background: rgba(255, 250, 241, 0.92); color: var(--muted); font: 0.61rem/1.25 Arial, sans-serif; }
 .legend__dot { display: grid; flex: 0 0 28px; width: 28px; height: 28px; place-items: center; border: 2px solid var(--white); border-radius: 50%; background: var(--red); color: var(--white); font-weight: 700; }
+.legend__copy { display: grid; gap: 3px; }
+.legend__copy span:last-child { color: var(--ink); font-weight: 700; }
 .mapboxgl-popup-content { display: grid; gap: 4px; padding: 11px 13px !important; border: 1px solid var(--rule); border-radius: 0 !important; background: var(--white) !important; box-shadow: 0 6px 22px rgba(38, 31, 28, 0.18) !important; color: var(--ink); }
 .mapboxgl-popup-content strong { font-family: Georgia, serif; font-size: 0.95rem; }
 .mapboxgl-popup-content span { color: var(--muted); font: 0.7rem Arial, sans-serif; }
