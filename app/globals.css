@@ -35,11 +35,14 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .timeline__kicker { align-self: end; color: var(--red); font: 700 0.56rem/1.2 Arial, sans-serif; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
 .timeline__controls { position: relative; display: grid; grid-template-columns: 166px 1fr; align-items: center; gap: 18px; padding: 12px 18px 22px; }
 .transport-controls { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); }
-.transport-controls button { display: grid; width: 33px; height: 31px; padding: 6px; place-items: center; border: 0; border-right: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
+.transport-controls button { position: relative; display: grid; width: 33px; height: 31px; padding: 6px; place-items: center; border: 0; border-right: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
 .transport-controls button:last-child { border-right: 0; }
 .transport-controls button:hover:not(:disabled), .transport-controls__primary { background: var(--ink) !important; color: var(--white) !important; }
 .transport-controls button:disabled { cursor: default; opacity: 0.28; }
 .transport-controls svg { width: 18px; height: 18px; fill: currentColor; }
+.play-hint { position: absolute; z-index: 3; top: 31px; left: 50%; width: 14px; height: 24px; transform: translateX(-50%); color: var(--red); pointer-events: none; animation: play-hint-bounce 850ms ease-in-out infinite alternate; }
+.play-hint svg { width: 14px; height: 24px; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+@keyframes play-hint-bounce { from { transform: translate(-50%, 3px); } to { transform: translate(-50%, -1px); } }
 .timeline input[type="range"] { width: 100%; accent-color: var(--red); cursor: pointer; }
 .year-ticks { position: absolute; right: 19px; bottom: 9px; left: 202px; display: flex; justify-content: space-between; color: var(--muted); font: 0.58rem/1 Arial, sans-serif; }
 
@@ -110,4 +113,5 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
+  .play-hint { animation: none; }
 }

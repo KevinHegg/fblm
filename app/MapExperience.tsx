@@ -18,6 +18,21 @@ type CountyCollection = GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.Mult
 
 const COMPANION_URL = "https://much-ado.net/legislators/";
 const MISSISSIPPI_BOUNDS: [[number, number], [number, number]] = [[-91.85, 29.72], [-87.95, 35.15]];
+const PLAY_HINT_KEY = "fblm-play-hint-dismissed";
+
+function wasPlayHintDismissed() {
+  try { if (window.localStorage.getItem(PLAY_HINT_KEY) === "1") return true; }
+  catch { /* Continue to the cookie fallback. */ }
+  try { return document.cookie.split("; ").includes(`${PLAY_HINT_KEY}=1`); }
+  catch { return false; }
+}
+
+function rememberPlayHintDismissal() {
+  try { window.localStorage.setItem(PLAY_HINT_KEY, "1"); }
+  catch { /* Continue to the cookie fallback. */ }
+  try { document.cookie = `${PLAY_HINT_KEY}=1; Max-Age=31536000; Path=/; SameSite=Lax`; }
+  catch { /* Storage may be unavailable in privacy-restricted iframes. */ }
+}
 
 function surnameFirst(name: string) {
   const parts = name.trim().split(/\s+/);
@@ -61,7 +76,8 @@ export function MapExperience() {
   const [counties, setCounties] = useState<CountyCollection | null>(null);
   const [yearIndex, setYearIndex] = useState(0);
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
-  const [playing, setPlaying] = useState(true);
+  const [playing, setPlaying] = useState(false);
+  const [showPlayHint, setShowPlayHint] = useState(false);
   const [sortMode, setSortMode] = useState<SortMode>("name");
   const [loadingError, setLoadingError] = useState("");
   const [mapReady, setMapReady] = useState(false);
@@ -121,7 +137,10 @@ export function MapExperience() {
 
   useEffect(() => {
     const embedParam = new URLSearchParams(window.location.search).get("embed") === "1";
-    queueMicrotask(() => setEmbed(embedParam));
+    queueMicrotask(() => {
+      setEmbed(embedParam);
+      setShowPlayHint(!wasPlayHintDismissed());
+    });
     const base = detectAssetBase();
     Promise.all([
       fetch(`${base}/data/counts.json`).then((response) => response.json()),
@@ -340,8 +359,14 @@ export function MapExperience() {
   }, [counts]);
 
   const goToYear = (index: number) => {
+    dismissPlayHint();
     setPlaying(false);
     setYearIndex(index);
+  };
+
+  const dismissPlayHint = () => {
+    setShowPlayHint(false);
+    rememberPlayHintDismissal();
   };
 
   const resetMapView = () => {
@@ -376,12 +401,17 @@ export function MapExperience() {
               <button
                 type="button"
                 className="transport-controls__primary"
-                onClick={() => setPlaying((value) => !value)}
+                onClick={() => { dismissPlayHint(); setPlaying((value) => !value); }}
                 disabled={!playing && yearIndex === (counts?.years.length ?? 1) - 1}
                 aria-label={playing ? "Pause timeline" : "Play timeline"}
                 title={playing ? "Pause" : "Play"}
               >
                 <TransportIcon kind={playing ? "pause" : "play"} />
+                {showPlayHint && !playing && (
+                  <span className="play-hint" aria-hidden="true">
+                    <svg viewBox="0 0 14 24"><path d="M7 23V4m0 0L2.5 8.5M7 4l4.5 4.5" /></svg>
+                  </span>
+                )}
               </button>
               <button type="button" onClick={() => goToYear(Math.min((counts?.years.length ?? 1) - 1, yearIndex + 1))} disabled={yearIndex === (counts?.years.length ?? 1) - 1} aria-label="Next year" title="Next year"><TransportIcon kind="next" /></button>
               <button type="button" onClick={() => goToYear((counts?.years.length ?? 1) - 1)} disabled={yearIndex === (counts?.years.length ?? 1) - 1} aria-label="Go to last year" title="Last year"><TransportIcon kind="last" /></button>
@@ -392,7 +422,7 @@ export function MapExperience() {
               min="0"
               max={Math.max(0, (counts?.years.length ?? 1) - 1)}
               value={yearIndex}
-              onChange={(event) => { setPlaying(false); setYearIndex(Number(event.target.value)); }}
+              onChange={(event) => { dismissPlayHint(); setPlaying(false); setYearIndex(Number(event.target.value)); }}
             />
             <div className="year-ticks" aria-hidden="true">
               <span>1870</span><span>1882</span><span>1894</span>
