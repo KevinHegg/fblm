@@ -17,6 +17,7 @@ type CountyProperties = {
 type CountyCollection = GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.MultiPolygon, CountyProperties>;
 
 const COMPANION_URL = "https://much-ado.net/legislators/";
+const MISSISSIPPI_BOUNDS: [[number, number], [number, number]] = [[-91.72, 30.08], [-88.02, 35.08]];
 
 function surnameFirst(name: string) {
   const parts = name.trim().split(/\s+/);
@@ -31,15 +32,15 @@ function TransportIcon({ kind }: { kind: "first" | "previous" | "play" | "pause"
   const previous = kind === "first" || kind === "previous";
   const endpoint = kind === "first" || kind === "last";
   if (kind === "play") {
-    return <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.7 16 10 6 16.3Z" /></svg>;
+    return <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M8 6.4 14 10l-6 3.6Z" /></svg>;
   }
   if (kind === "pause") {
-    return <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 4h3.4v12H5zm6.6 0H15v12h-3.4z" /></svg>;
+    return <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M7 6h2.2v8H7zm3.8 0H13v8h-2.2z" /></svg>;
   }
   return (
     <svg viewBox="0 0 20 20" aria-hidden="true">
-      {endpoint && <path d={previous ? "M4 4h1.8v12H4z" : "M14.2 4H16v12h-1.8z"} />}
-      <path d={previous ? "M14.7 4.2 6.3 10l8.4 5.8Z" : "M5.3 4.2 13.7 10l-8.4 5.8Z"} />
+      {endpoint && <path d={previous ? "M4 4h1.6v12H4z" : "M14.4 4H16v12h-1.6z"} />}
+      <path d={previous ? "m13.8 4.8-7 5.2 7 5.2" : "m6.2 4.8 7 5.2-7 5.2"} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -181,7 +182,7 @@ export function MapExperience() {
         map.on("load", () => {
           setMapReady(true);
           setLoadingError("");
-          map.fitBounds([[-91.72, 30.08], [-88.02, 35.08]], { padding: 28, duration: 0 });
+          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
           map.addLayer({
             id: "county-fill",
@@ -305,6 +306,10 @@ export function MapExperience() {
     setYearIndex(index);
   };
 
+  const resetMapView = () => {
+    mapRef.current?.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 650 });
+  };
+
   return (
     <main className={embed ? "site site--embed" : "site"}>
       {!embed && (
@@ -360,6 +365,12 @@ export function MapExperience() {
         <div className="map-layout">
           <div className="map-wrap">
             <div ref={mapContainer} className="map" aria-label={`Map of Black legislators by Mississippi county in ${year}`} />
+            <button className="map-reset" type="button" onClick={resetMapView} aria-label="Reset map view" title="Reset map view">
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M7 3H3v4m10-4h4v4M7 17H3v-4m10 4h4v-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+                <circle cx="10" cy="10" r="2.2" fill="currentColor" />
+              </svg>
+            </button>
             {loadingError && !mapReady && <div className="map-message" role="status">{loadingError}</div>}
             <div className="legend"><span className="legend__dot">3</span><span>Circle size and number show legislators serving that county</span></div>
           </div>
