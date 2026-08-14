@@ -383,7 +383,7 @@ export function MapExperience() {
               <span>The First Black Legislators in Mississippi</span>
             </a>
           </h1>
-          <a className="project-link" href={COMPANION_URL} target="_blank" rel="noreferrer">Companion project ↗</a>
+          <a className="project-link" href={COMPANION_URL} target="_blank" rel="noreferrer">Main project ↗</a>
         </header>
       )}
 
