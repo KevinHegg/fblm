@@ -173,6 +173,7 @@ export function MapExperience() {
     let cancelled = false;
     let resizeObserver: ResizeObserver | undefined;
     let initialRenderTimer: number | undefined;
+    let initialCameraSettleTimer: number | undefined;
     const base = detectAssetBase();
     const countyData = counties;
     const countsData = counts;
@@ -205,15 +206,18 @@ export function MapExperience() {
           map.resize();
           map.triggerRepaint();
         };
+        let initialCameraCycleStarted = false;
         const forceInitialCameraFrame = () => {
-          if (cancelled) return;
+          if (cancelled || initialCameraCycleStarted) return;
+          initialCameraCycleStarted = true;
+          const settledCenter = map.getCenter();
           const settledZoom = map.getZoom();
-          map.once("render", () => {
-            if (cancelled) return;
-            map.jumpTo({ zoom: settledZoom });
-            map.triggerRepaint();
-          });
           map.jumpTo({ zoom: settledZoom + 1 });
+          initialCameraSettleTimer = window.setTimeout(() => {
+            if (cancelled) return;
+            map.jumpTo({ center: settledCenter, zoom: settledZoom });
+            refreshMapCanvas();
+          }, 120);
         };
         resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
         resizeObserver.observe(mapContainer.current);
@@ -374,6 +378,7 @@ export function MapExperience() {
       cancelled = true;
       resizeObserver?.disconnect();
       if (initialRenderTimer !== undefined) window.clearTimeout(initialRenderTimer);
+      if (initialCameraSettleTimer !== undefined) window.clearTimeout(initialCameraSettleTimer);
       mapRef.current?.remove();
       mapRef.current = null;
     };
