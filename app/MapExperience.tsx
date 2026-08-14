@@ -177,11 +177,15 @@ export function MapExperience() {
 
     async function initializeMap() {
       try {
-        const [{ default: mapboxgl }, configResponse] = await Promise.all([
+        const [{ default: mapboxgl }, configResponse, hydrographyResponse] = await Promise.all([
           import("mapbox-gl"),
           fetch(`${base}/${window.location.hostname === "localhost" ? "config.local.json" : "config.json"}`),
+          fetch(`${base}/data/hydrography.json`),
         ]);
-        const config = await configResponse.json();
+        const [config, hydrography] = await Promise.all([
+          configResponse.json(),
+          hydrographyResponse.json() as Promise<GeoJSON.FeatureCollection>,
+        ]);
         if (!config.mapboxToken) throw new Error("token");
         if (cancelled || !mapContainer.current) return;
         mapboxgl.accessToken = config.mapboxToken;
@@ -190,7 +194,7 @@ export function MapExperience() {
           style: "mapbox://styles/mapbox/outdoors-v12",
           center: [-89.75, 32.75],
           zoom: 5.5,
-          pitch: 10,
+          pitch: 18,
           attributionControl: false,
           logoPosition: "bottom-right",
         });
@@ -202,7 +206,7 @@ export function MapExperience() {
         map.on("load", () => {
           setMapReady(true);
           setLoadingError("");
-          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0 });
+          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 18, bearing: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
           map.addSource("fblm-terrain", {
             type: "raster-dem",
@@ -210,16 +214,22 @@ export function MapExperience() {
             tileSize: 512,
             maxzoom: 14,
           });
-          map.setTerrain({ source: "fblm-terrain", exaggeration: 1.2 });
+          map.addSource("fblm-hillshade-dem", {
+            type: "raster-dem",
+            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
+            tileSize: 512,
+            maxzoom: 14,
+          });
+          map.setTerrain({ source: "fblm-terrain", exaggeration: 1.45 });
           map.addLayer({
             id: "fblm-hillshade",
             type: "hillshade",
-            source: "fblm-terrain",
+            source: "fblm-hillshade-dem",
             paint: {
-              "hillshade-exaggeration": 0.9,
-              "hillshade-shadow-color": "#5e5549",
+              "hillshade-exaggeration": 1,
+              "hillshade-shadow-color": "#51483d",
               "hillshade-highlight-color": "#fffdf7",
-              "hillshade-accent-color": "#887b69",
+              "hillshade-accent-color": "#796c5b",
             },
           });
           map.addLayer({
@@ -228,26 +238,25 @@ export function MapExperience() {
             source: "counties",
             paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.09 },
           });
-          if (map.getSource("composite")) {
-            map.addLayer({
-              id: "fblm-water",
-              type: "fill",
-              source: "composite",
-              "source-layer": "water",
-              paint: { "fill-color": "#78b8cd", "fill-opacity": 0.96 },
-            });
-            map.addLayer({
-              id: "fblm-waterways",
-              type: "line",
-              source: "composite",
-              "source-layer": "waterway",
-              paint: {
-                "line-color": "#4e98b1",
-                "line-opacity": 0.96,
-                "line-width": ["interpolate", ["linear"], ["zoom"], 5, 1.1, 9, 2.4],
-              },
-            });
-          }
+          map.addSource("fblm-hydrography", { type: "geojson", data: hydrography });
+          map.addLayer({
+            id: "fblm-water",
+            type: "fill",
+            source: "fblm-hydrography",
+            filter: ["==", ["get", "kind"], "lake"],
+            paint: { "fill-color": "#70b4ca", "fill-opacity": 0.92 },
+          });
+          map.addLayer({
+            id: "fblm-waterways",
+            type: "line",
+            source: "fblm-hydrography",
+            filter: ["==", ["get", "kind"], "river"],
+            paint: {
+              "line-color": "#3f91ae",
+              "line-opacity": 0.98,
+              "line-width": ["interpolate", ["linear"], ["zoom"], 5, 1.4, 9, 2.8],
+            },
+          });
           map.addLayer({
             id: "county-lines",
             type: "line",
@@ -281,6 +290,26 @@ export function MapExperience() {
               "text-opacity": 0.68,
               "text-halo-color": "#fffaf1",
               "text-halo-width": 1.1,
+            },
+          });
+          map.addLayer({
+            id: "fblm-water-labels",
+            type: "symbol",
+            source: "fblm-hydrography",
+            minzoom: 5.5,
+            filter: ["all", ["==", ["get", "kind"], "river"], ["has", "name"]],
+            layout: {
+              "symbol-placement": "line",
+              "text-field": ["get", "name"],
+              "text-size": 9,
+              "text-font": ["DIN Pro Italic", "Arial Unicode MS Regular"],
+              "text-max-angle": 35,
+              "text-padding": 12,
+            },
+            paint: {
+              "text-color": "#246f8a",
+              "text-halo-color": "#fffdf7",
+              "text-halo-width": 1.2,
             },
           });
           const initialRecords = countsData.records.filter(
@@ -333,7 +362,8 @@ export function MapExperience() {
           });
         });
         map.on("error", (event) => {
-          if (String(event.error?.message ?? "").includes("401")) setLoadingError("The map token is not authorized for this address.");
+          const message = String(event.error?.message ?? "");
+          if (message.includes("401")) setLoadingError("The map token is not authorized for this address.");
         });
       } catch {
         setLoadingError("The map is ready, but its public Mapbox token still needs to be added.");
@@ -371,7 +401,7 @@ export function MapExperience() {
   };
 
   const resetMapView = () => {
-    mapRef.current?.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 650 });
+    mapRef.current?.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 650, pitch: 18, bearing: 0 });
   };
 
   return (
