@@ -194,7 +194,6 @@ export function MapExperience() {
           style: "mapbox://styles/mapbox/outdoors-v12",
           center: [-89.75, 32.75],
           zoom: 5.5,
-          pitch: 18,
           attributionControl: false,
           logoPosition: "bottom-right",
         });
@@ -206,31 +205,19 @@ export function MapExperience() {
         map.on("load", () => {
           setMapReady(true);
           setLoadingError("");
-          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 18, bearing: 0 });
+          map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
           map.addSource("counties", { type: "geojson", data: countyData });
-          map.addSource("fblm-terrain", {
-            type: "raster-dem",
-            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-            tileSize: 512,
-            maxzoom: 14,
-          });
-          map.addSource("fblm-hillshade-dem", {
-            type: "raster-dem",
-            url: "mapbox://mapbox.mapbox-terrain-dem-v1",
-            tileSize: 512,
-            maxzoom: 14,
-          });
-          map.setTerrain({ source: "fblm-terrain", exaggeration: 1.45 });
-          map.addLayer({
-            id: "fblm-hillshade",
-            type: "hillshade",
-            source: "fblm-hillshade-dem",
-            paint: {
-              "hillshade-exaggeration": 1,
-              "hillshade-shadow-color": "#51483d",
-              "hillshade-highlight-color": "#fffdf7",
-              "hillshade-accent-color": "#796c5b",
-            },
+          [
+            "waterway-shadow",
+            "water-shadow",
+            "waterway",
+            "water",
+            "water-depth",
+            "waterway-label",
+            "water-line-label",
+            "water-point-label",
+          ].forEach((layerId) => {
+            if (map.getLayer(layerId)) map.setLayoutProperty(layerId, "visibility", "none");
           });
           map.addLayer({
             id: "county-fill",
@@ -240,21 +227,13 @@ export function MapExperience() {
           });
           map.addSource("fblm-hydrography", { type: "geojson", data: hydrography });
           map.addLayer({
-            id: "fblm-water",
-            type: "fill",
-            source: "fblm-hydrography",
-            filter: ["==", ["get", "kind"], "lake"],
-            paint: { "fill-color": "#70b4ca", "fill-opacity": 0.92 },
-          });
-          map.addLayer({
-            id: "fblm-waterways",
+            id: "fblm-mississippi-river",
             type: "line",
             source: "fblm-hydrography",
-            filter: ["==", ["get", "kind"], "river"],
             paint: {
               "line-color": "#3f91ae",
               "line-opacity": 0.98,
-              "line-width": ["interpolate", ["linear"], ["zoom"], 5, 1.4, 9, 2.8],
+              "line-width": ["interpolate", ["linear"], ["zoom"], 5, 1.8, 9, 3.2],
             },
           });
           map.addLayer({
@@ -297,7 +276,6 @@ export function MapExperience() {
             type: "symbol",
             source: "fblm-hydrography",
             minzoom: 5.5,
-            filter: ["all", ["==", ["get", "kind"], "river"], ["has", "name"]],
             layout: {
               "symbol-placement": "line",
               "text-field": ["get", "name"],
@@ -401,7 +379,7 @@ export function MapExperience() {
   };
 
   const resetMapView = () => {
-    mapRef.current?.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 650, pitch: 18, bearing: 0 });
+    mapRef.current?.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 650, pitch: 0, bearing: 0 });
   };
 
   return (
