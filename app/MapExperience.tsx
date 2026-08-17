@@ -207,9 +207,13 @@ export function MapExperience() {
     let startupAnimationFrame: number | undefined;
     let startupUntil = 0;
     let refreshMapCanvas: (() => void) | undefined;
+    let wakeMapCanvas: (() => void) | undefined;
     const refreshAfterResume = () => {
       if (document.visibilityState === "hidden") return;
-      window.requestAnimationFrame(() => refreshMapCanvas?.());
+      window.requestAnimationFrame(() => {
+        refreshMapCanvas?.();
+        wakeMapCanvas?.();
+      });
     };
     const base = detectAssetBase();
     const countyData = counties;
@@ -242,6 +246,13 @@ export function MapExperience() {
           if (cancelled) return;
           map.resize();
           map.triggerRepaint();
+        };
+        wakeMapCanvas = () => {
+          if (cancelled) return;
+          const center = map.getCenter();
+          const zoom = map.getZoom();
+          map.jumpTo({ center, zoom: zoom + 0.05 });
+          map.easeTo({ center, zoom, duration: 140 });
         };
         const paintStartupFrames = () => {
           if (cancelled) return;
@@ -398,7 +409,11 @@ export function MapExperience() {
           refreshMapCanvas?.();
           startupUntil = performance.now() + 2500;
           startupAnimationFrame = window.requestAnimationFrame(paintStartupFrames);
-          map.once("idle", () => refreshMapCanvas?.());
+          window.requestAnimationFrame(() => window.requestAnimationFrame(() => wakeMapCanvas?.()));
+          map.once("idle", () => {
+            refreshMapCanvas?.();
+            wakeMapCanvas?.();
+          });
         });
         map.on("error", (event) => {
           const message = String(event.error?.message ?? "");
