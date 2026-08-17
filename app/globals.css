@@ -57,7 +57,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .map-layout { display: grid; min-height: 0; grid-template-columns: minmax(0, 1fr) 290px; }
 .map-wrap { position: relative; min-width: 0; background: #cfd3c8; }
 .map { position: absolute; inset: 6px; border: 1px solid rgba(108, 98, 90, 0.32); }
-.map--booting .mapboxgl-canvas { opacity: 0; }
 .map-reset { position: absolute; z-index: 2; top: 84px; left: 16px; display: grid; width: 34px; height: 34px; padding: 7px; place-items: center; border: 0; border-radius: 4px; background: #fff; box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); color: #333; cursor: pointer; }
 .map-reset:hover { background: #f2f2f2; }
 .map-reset svg { width: 18px; height: 18px; }

@@ -204,8 +204,13 @@ export function MapExperience() {
     if (!counties || !counts || !mapContainer.current || mapRef.current) return;
     let cancelled = false;
     let resizeObserver: ResizeObserver | undefined;
-    let initialRenderTimer: number | undefined;
-    let initialCameraSettleTimer: number | undefined;
+    let startupAnimationFrame: number | undefined;
+    let startupUntil = 0;
+    let refreshMapCanvas: (() => void) | undefined;
+    const refreshAfterResume = () => {
+      if (document.visibilityState === "hidden") return;
+      window.requestAnimationFrame(() => refreshMapCanvas?.());
+    };
     const base = detectAssetBase();
     const countyData = counties;
     const countsData = counts;
@@ -233,51 +238,25 @@ export function MapExperience() {
           logoPosition: "bottom-right",
         });
         mapRef.current = map;
-        mapContainer.current.classList.add("map--booting");
-        const refreshMapCanvas = () => {
+        refreshMapCanvas = () => {
           if (cancelled) return;
           map.resize();
           map.triggerRepaint();
         };
-        let initialCameraCycleStarted = false;
-        const forceInitialCameraFrame = () => {
-          if (cancelled || initialCameraCycleStarted) return;
-          initialCameraCycleStarted = true;
-          const settledCenter = map.getCenter();
-          const settledZoom = map.getZoom();
-          const revealSettledMap = () => {
-            if (cancelled) return;
-            if (initialCameraSettleTimer !== undefined) {
-              window.clearTimeout(initialCameraSettleTimer);
-              initialCameraSettleTimer = undefined;
-            }
-            mapContainer.current?.classList.remove("map--booting");
-            window.requestAnimationFrame(() => {
-              if (cancelled) return;
-              map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
-              refreshMapCanvas();
-            });
-          };
-          map.once("moveend", () => {
-            if (cancelled) return;
-            map.once("moveend", revealSettledMap);
-            map.zoomTo(settledZoom, { duration: 250 });
-          });
-          map.zoomTo(settledZoom + 1, { duration: 250 });
-          initialCameraSettleTimer = window.setTimeout(() => {
-            if (cancelled) return;
-            map.stop();
-            map.jumpTo({ center: settledCenter, zoom: settledZoom });
-            revealSettledMap();
-          }, 1500);
+        const paintStartupFrames = () => {
+          if (cancelled) return;
+          refreshMapCanvas?.();
+          if (performance.now() < startupUntil) {
+            startupAnimationFrame = window.requestAnimationFrame(paintStartupFrames);
+          }
         };
-        resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(refreshMapCanvas));
+        resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(() => refreshMapCanvas?.()));
         resizeObserver.observe(mapContainer.current);
+        window.addEventListener("pageshow", refreshAfterResume);
+        document.addEventListener("visibilitychange", refreshAfterResume);
         popupRef.current = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, offset: 18 });
         map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-left");
         map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
-        initialRenderTimer = window.setTimeout(forceInitialCameraFrame, 350);
-        map.once("idle", forceInitialCameraFrame);
 
         map.on("load", () => {
           setMapReady(true);
@@ -416,7 +395,10 @@ export function MapExperience() {
             if (fips) setSelectedFips(String(fips));
           });
           map.fitBounds(MISSISSIPPI_BOUNDS, { padding: 28, duration: 0, pitch: 0, bearing: 0 });
-          window.requestAnimationFrame(() => window.requestAnimationFrame(refreshMapCanvas));
+          refreshMapCanvas?.();
+          startupUntil = performance.now() + 2500;
+          startupAnimationFrame = window.requestAnimationFrame(paintStartupFrames);
+          map.once("idle", () => refreshMapCanvas?.());
         });
         map.on("error", (event) => {
           const message = String(event.error?.message ?? "");
@@ -430,8 +412,9 @@ export function MapExperience() {
     return () => {
       cancelled = true;
       resizeObserver?.disconnect();
-      if (initialRenderTimer !== undefined) window.clearTimeout(initialRenderTimer);
-      if (initialCameraSettleTimer !== undefined) window.clearTimeout(initialCameraSettleTimer);
+      if (startupAnimationFrame !== undefined) window.cancelAnimationFrame(startupAnimationFrame);
+      window.removeEventListener("pageshow", refreshAfterResume);
+      document.removeEventListener("visibilitychange", refreshAfterResume);
       mapRef.current?.remove();
       mapRef.current = null;
     };
