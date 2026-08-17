@@ -70,9 +70,27 @@ function StaticMapFallback({
   hydrography: HydrographyCollection;
   records: CountRecord[];
 }) {
+  const fallbackMap = useRef<SVGSVGElement>(null);
+  const [fallbackSize, setFallbackSize] = useState({ width: 1000, height: 600 });
+
+  useEffect(() => {
+    const element = fallbackMap.current;
+    if (!element) return;
+    const updateSize = () => {
+      const width = Math.max(1, element.clientWidth);
+      const height = Math.max(1, element.clientHeight);
+      setFallbackSize((current) => (
+        current.width === width && current.height === height ? current : { width, height }
+      ));
+    };
+    updateSize();
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+
   const drawing = useMemo(() => {
-    const width = 1000;
-    const height = 600;
+    const { width, height } = fallbackSize;
     const longitudes: number[] = [];
     const latitudes: number[] = [];
     const collectCoordinates = (value: unknown) => {
@@ -92,7 +110,7 @@ function StaticMapFallback({
     const longitudeScale = Math.cos((((minLatitude + maxLatitude) / 2) * Math.PI) / 180);
     const projectedWidth = (maxLongitude - minLongitude) * longitudeScale;
     const projectedHeight = maxLatitude - minLatitude;
-    const scale = Math.min(420 / projectedWidth, 540 / projectedHeight);
+    const scale = Math.min((width * 0.9) / projectedWidth, (height * 0.9) / projectedHeight);
     const stateWidth = projectedWidth * scale;
     const stateHeight = projectedHeight * scale;
     const left = (width - stateWidth) / 2;
@@ -134,13 +152,14 @@ function StaticMapFallback({
       return [{ ...record, x, y, radius: 13 + Math.min(4, Math.max(0, record.count - 1)) * 3.5 }];
     });
     return { width, height, countyPaths, riverPaths, labels, markers };
-  }, [counties, hydrography, records]);
+  }, [counties, fallbackSize, hydrography, records]);
 
   return (
     <svg
+      ref={fallbackMap}
       className="map-fallback"
       viewBox={`0 0 ${drawing.width} ${drawing.height}`}
-      preserveAspectRatio="none"
+      preserveAspectRatio="xMidYMid meet"
       aria-hidden="true"
     >
       <g className="map-fallback__counties">
