@@ -69,6 +69,7 @@ function detectAssetBase() {
 
 export function MapExperience() {
   const mapContainer = useRef<HTMLDivElement>(null);
+  const timelineTrack = useRef<HTMLDivElement>(null);
   const mapRef = useRef<import("mapbox-gl").Map | null>(null);
   const popupRef = useRef<import("mapbox-gl").Popup | null>(null);
   const [counts, setCounts] = useState<CountsData | null>(null);
@@ -82,8 +83,29 @@ export function MapExperience() {
   const [loadingError, setLoadingError] = useState("");
   const [mapReady, setMapReady] = useState(false);
   const [embed, setEmbed] = useState(false);
+  const [timelineTrackWidth, setTimelineTrackWidth] = useState(0);
 
   const year = counts?.years[yearIndex] ?? 1870;
+  const yearProgress = counts && counts.years.length > 1
+    ? yearIndex / (counts.years.length - 1)
+    : 0;
+  const currentYearLeft = timelineTrackWidth > 0
+    ? 8 + yearProgress * Math.max(0, timelineTrackWidth - 16)
+    : 0;
+  const timelineTicks = useMemo(() => {
+    const years = counts?.years ?? [];
+    if (years.length === 0) return [];
+    if (years.length === 1) return [{ year: years[0], index: 0 }];
+    const capacity = timelineTrackWidth > 0
+      ? Math.max(2, Math.floor(timelineTrackWidth / 54))
+      : 3;
+    const tickCount = Math.min(years.length, capacity);
+    const indexes = new Set<number>();
+    for (let tick = 0; tick < tickCount; tick += 1) {
+      indexes.add(Math.round((tick * (years.length - 1)) / (tickCount - 1)));
+    }
+    return [...indexes].sort((a, b) => a - b).map((index) => ({ year: years[index], index }));
+  }, [counts, timelineTrackWidth]);
   const records = useMemo(
     () => counts?.records.filter((record) => record.year === year && record.count > 0) ?? [],
     [counts, year],
@@ -153,6 +175,16 @@ export function MapExperience() {
         setCounties(countiesResult);
       })
       .catch(() => setLoadingError("The historical data could not be loaded."));
+  }, []);
+
+  useEffect(() => {
+    const track = timelineTrack.current;
+    if (!track) return;
+    const updateWidth = () => setTimelineTrackWidth(track.clientWidth);
+    updateWidth();
+    const observer = new ResizeObserver(updateWidth);
+    observer.observe(track);
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
@@ -306,7 +338,8 @@ export function MapExperience() {
               "text-field": ["get", "name"],
               "text-size": 9.3,
               "text-font": ["DIN Pro Regular", "Arial Unicode MS Regular"],
-              "text-allow-overlap": false,
+              "text-allow-overlap": true,
+              "text-ignore-placement": true,
             },
             paint: {
               "text-color": "#3f3832",
@@ -426,6 +459,17 @@ export function MapExperience() {
     setYearIndex(index);
   };
 
+  const togglePlayback = () => {
+    dismissPlayHint();
+    if (playing) {
+      setPlaying(false);
+      return;
+    }
+    if (!counts || yearIndex >= counts.years.length - 1) return;
+    setYearIndex((current) => Math.min(current + 1, counts.years.length - 1));
+    setPlaying(true);
+  };
+
   const dismissPlayHint = () => {
     setShowPlayHint(false);
     rememberPlayHintDismissal();
@@ -463,7 +507,7 @@ export function MapExperience() {
               <button
                 type="button"
                 className="transport-controls__primary"
-                onClick={() => { dismissPlayHint(); setPlaying((value) => !value); }}
+                onClick={togglePlayback}
                 disabled={!playing && yearIndex === (counts?.years.length ?? 1) - 1}
                 aria-label={playing ? "Pause timeline" : "Play timeline"}
                 title={playing ? "Pause" : "Play"}
@@ -478,16 +522,32 @@ export function MapExperience() {
               <button type="button" onClick={() => goToYear(Math.min((counts?.years.length ?? 1) - 1, yearIndex + 1))} disabled={yearIndex === (counts?.years.length ?? 1) - 1} aria-label="Next year" title="Next year"><TransportIcon kind="next" /></button>
               <button type="button" onClick={() => goToYear((counts?.years.length ?? 1) - 1)} disabled={yearIndex === (counts?.years.length ?? 1) - 1} aria-label="Go to last year" title="Last year"><TransportIcon kind="last" /></button>
             </div>
-            <input
-              aria-label="Year"
-              type="range"
-              min="0"
-              max={Math.max(0, (counts?.years.length ?? 1) - 1)}
-              value={yearIndex}
-              onChange={(event) => { dismissPlayHint(); setPlaying(false); setYearIndex(Number(event.target.value)); }}
-            />
-            <div className="year-ticks" aria-hidden="true">
-              <span>1870</span><span>1882</span><span>1894</span>
+            <div className="timeline__track" ref={timelineTrack}>
+              <span
+                className="timeline__current-year"
+                style={{ left: `${currentYearLeft}px`, visibility: timelineTrackWidth > 0 ? "visible" : "hidden" }}
+                aria-hidden="true"
+              >
+                {year}
+              </span>
+              <input
+                aria-label="Year"
+                type="range"
+                min="0"
+                max={Math.max(0, (counts?.years.length ?? 1) - 1)}
+                value={yearIndex}
+                onChange={(event) => { dismissPlayHint(); setPlaying(false); setYearIndex(Number(event.target.value)); }}
+              />
+              <div className="year-ticks" aria-hidden="true">
+                {timelineTicks.map((tick) => (
+                  <span
+                    key={tick.year}
+                    style={{ left: `${(tick.index / Math.max(1, (counts?.years.length ?? 1) - 1)) * 100}%` }}
+                  >
+                    {tick.year}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>

@@ -33,7 +33,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .timeline__summary strong { grid-row: 1 / span 2; font-size: 2.15rem; font-weight: 500; letter-spacing: -0.04em; line-height: 0.95; }
 .timeline__summary > span:last-child { color: var(--muted); font: 0.68rem/1.2 Arial, sans-serif; white-space: nowrap; }
 .timeline__kicker { align-self: end; color: var(--red); font: 700 0.56rem/1.2 Arial, sans-serif; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
-.timeline__controls { position: relative; display: grid; grid-template-columns: 166px 1fr; align-items: center; gap: 18px; padding: 12px 18px 22px; }
+.timeline__controls { position: relative; display: grid; grid-template-columns: 166px minmax(0, 1fr); align-items: center; gap: 18px; padding: 6px 18px; }
 .transport-controls { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); }
 .transport-controls button { position: relative; display: grid; width: 33px; height: 31px; padding: 6px; place-items: center; border: 0; border-right: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
 .transport-controls button:last-child { border-right: 0; }
@@ -43,8 +43,16 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .play-hint { position: absolute; z-index: 3; top: 31px; left: 50%; width: 14px; height: 24px; transform: translateX(-50%); color: var(--red); pointer-events: none; animation: play-hint-bounce 850ms ease-in-out infinite alternate; }
 .play-hint svg { width: 14px; height: 24px; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 @keyframes play-hint-bounce { from { transform: translate(-50%, 3px); } to { transform: translate(-50%, -1px); } }
-.timeline input[type="range"] { width: 100%; accent-color: var(--red); cursor: pointer; }
-.year-ticks { position: absolute; right: 19px; bottom: 9px; left: 202px; display: flex; justify-content: space-between; color: var(--muted); font: 0.58rem/1 Arial, sans-serif; }
+.timeline__track { position: relative; height: 52px; min-width: 0; }
+.timeline input[type="range"] { position: absolute; top: 17px; left: 0; width: 100%; margin: 0; accent-color: var(--red); cursor: pointer; }
+.timeline__current-year { position: absolute; z-index: 1; top: 0; transform: translateX(-50%); color: var(--red); font: 700 0.58rem/1 Arial, sans-serif; white-space: nowrap; }
+.year-ticks { position: absolute; right: 0; bottom: 0; left: 0; height: 13px; color: var(--muted); font: 0.58rem/1 Arial, sans-serif; }
+.year-ticks span { position: absolute; bottom: 0; transform: translateX(-50%); white-space: nowrap; }
+.year-ticks span::before { position: absolute; bottom: 11px; left: 50%; width: 1px; height: 3px; background: var(--rule); content: ""; }
+.year-ticks span:first-child { transform: none; }
+.year-ticks span:first-child::before { left: 8px; }
+.year-ticks span:last-child { transform: translateX(-100%); }
+.year-ticks span:last-child::before { right: 8px; left: auto; }
 
 .map-layout { display: grid; min-height: 0; grid-template-columns: minmax(0, 1fr) 290px; }
 .map-wrap { position: relative; min-width: 0; background: #cfd3c8; }
@@ -98,9 +106,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .timeline__summary strong { font-size: 1.8rem; }
   .timeline__kicker { font-size: 0.49rem; }
   .timeline__summary > span:last-child { font-size: 0.58rem; }
-  .timeline__controls { grid-template-columns: 151px 1fr; gap: 12px; padding: 10px 12px 20px; }
+  .timeline__controls { grid-template-columns: 151px minmax(0, 1fr); gap: 12px; padding: 5px 12px; }
   .transport-controls button { width: 30px; height: 29px; }
-  .year-ticks { right: 13px; bottom: 7px; left: 175px; }
   .map-layout { grid-template-columns: 1fr; }
   .map-wrap { height: 72vh; min-height: 500px; }
   .detail-panel { min-height: 270px; border-top: 1px solid var(--rule); border-left: 0; }
