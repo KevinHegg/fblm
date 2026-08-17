@@ -205,6 +205,7 @@ export function MapExperience() {
     let cancelled = false;
     let resizeObserver: ResizeObserver | undefined;
     let startupAnimationFrame: number | undefined;
+    const startupWakeTimers: number[] = [];
     let startupUntil = 0;
     let refreshMapCanvas: (() => void) | undefined;
     let wakeMapCanvas: (() => void) | undefined;
@@ -251,8 +252,12 @@ export function MapExperience() {
           if (cancelled) return;
           const center = map.getCenter();
           const zoom = map.getZoom();
-          map.jumpTo({ center, zoom: zoom + 0.05 });
-          map.easeTo({ center, zoom, duration: 140 });
+          map.jumpTo({ center, zoom: zoom + 1 });
+          window.requestAnimationFrame(() => {
+            if (cancelled) return;
+            map.jumpTo({ center, zoom });
+            refreshMapCanvas?.();
+          });
         };
         const paintStartupFrames = () => {
           if (cancelled) return;
@@ -410,6 +415,9 @@ export function MapExperience() {
           startupUntil = performance.now() + 2500;
           startupAnimationFrame = window.requestAnimationFrame(paintStartupFrames);
           window.requestAnimationFrame(() => window.requestAnimationFrame(() => wakeMapCanvas?.()));
+          [500, 1500, 3000].forEach((delay) => {
+            startupWakeTimers.push(window.setTimeout(() => wakeMapCanvas?.(), delay));
+          });
           map.once("idle", () => {
             refreshMapCanvas?.();
             wakeMapCanvas?.();
@@ -428,6 +436,7 @@ export function MapExperience() {
       cancelled = true;
       resizeObserver?.disconnect();
       if (startupAnimationFrame !== undefined) window.cancelAnimationFrame(startupAnimationFrame);
+      startupWakeTimers.forEach((timer) => window.clearTimeout(timer));
       window.removeEventListener("pageshow", refreshAfterResume);
       document.removeEventListener("visibilitychange", refreshAfterResume);
       mapRef.current?.remove();
