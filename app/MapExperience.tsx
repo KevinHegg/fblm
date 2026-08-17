@@ -15,6 +15,7 @@ type CountyProperties = {
   INTPTLON: string;
 };
 type CountyCollection = GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.MultiPolygon, CountyProperties>;
+type HydrographyCollection = GeoJSON.FeatureCollection<GeoJSON.LineString | GeoJSON.MultiLineString>;
 
 const COMPANION_URL = "https://much-ado.net/legislators/";
 const MISSISSIPPI_BOUNDS: [[number, number], [number, number]] = [[-91.85, 29.72], [-87.95, 35.15]];
@@ -60,6 +61,109 @@ function TransportIcon({ kind }: { kind: "first" | "previous" | "play" | "pause"
   );
 }
 
+function StaticMapFallback({
+  counties,
+  hydrography,
+  records,
+}: {
+  counties: CountyCollection;
+  hydrography: HydrographyCollection;
+  records: CountRecord[];
+}) {
+  const drawing = useMemo(() => {
+    const width = 1000;
+    const height = 600;
+    const longitudes: number[] = [];
+    const latitudes: number[] = [];
+    const collectCoordinates = (value: unknown) => {
+      if (!Array.isArray(value)) return;
+      if (value.length >= 2 && typeof value[0] === "number" && typeof value[1] === "number") {
+        longitudes.push(value[0]);
+        latitudes.push(value[1]);
+        return;
+      }
+      value.forEach(collectCoordinates);
+    };
+    counties.features.forEach((county) => collectCoordinates(county.geometry.coordinates));
+    const minLongitude = Math.min(...longitudes);
+    const maxLongitude = Math.max(...longitudes);
+    const minLatitude = Math.min(...latitudes);
+    const maxLatitude = Math.max(...latitudes);
+    const longitudeScale = Math.cos((((minLatitude + maxLatitude) / 2) * Math.PI) / 180);
+    const projectedWidth = (maxLongitude - minLongitude) * longitudeScale;
+    const projectedHeight = maxLatitude - minLatitude;
+    const scale = Math.min(420 / projectedWidth, 540 / projectedHeight);
+    const stateWidth = projectedWidth * scale;
+    const stateHeight = projectedHeight * scale;
+    const left = (width - stateWidth) / 2;
+    const top = (height - stateHeight) / 2;
+    const project = ([longitude, latitude]: GeoJSON.Position) => [
+      left + (longitude - minLongitude) * longitudeScale * scale,
+      top + (maxLatitude - latitude) * scale,
+    ] as const;
+    const linePath = (line: GeoJSON.Position[]) => line
+      .map((position, index) => {
+        const [x, y] = project(position);
+        return `${index === 0 ? "M" : "L"}${x.toFixed(2)},${y.toFixed(2)}`;
+      })
+      .join(" ");
+    const countyPaths = counties.features.map((county) => {
+      const polygons = county.geometry.type === "Polygon"
+        ? [county.geometry.coordinates]
+        : county.geometry.coordinates;
+      return {
+        fips: county.properties.GEOID,
+        path: polygons.flatMap((polygon) => polygon.map((ring) => `${linePath(ring)} Z`)).join(" "),
+      };
+    });
+    const riverPaths = hydrography.features.flatMap((feature) => {
+      const lines = feature.geometry.type === "LineString"
+        ? [feature.geometry.coordinates]
+        : feature.geometry.coordinates;
+      return lines.map(linePath);
+    });
+    const labels = counties.features.map((county) => {
+      const [x, y] = project([Number(county.properties.INTPTLON), Number(county.properties.INTPTLAT)]);
+      return { fips: county.properties.GEOID, name: county.properties.BASENAME, x, y };
+    });
+    const countyByFips = new Map(counties.features.map((county) => [county.properties.GEOID, county]));
+    const markers = records.flatMap((record) => {
+      const county = countyByFips.get(record.fips);
+      if (!county) return [];
+      const [x, y] = project([Number(county.properties.INTPTLON), Number(county.properties.INTPTLAT)]);
+      return [{ ...record, x, y, radius: 13 + Math.min(4, Math.max(0, record.count - 1)) * 3.5 }];
+    });
+    return { width, height, countyPaths, riverPaths, labels, markers };
+  }, [counties, hydrography, records]);
+
+  return (
+    <svg
+      className="map-fallback"
+      viewBox={`0 0 ${drawing.width} ${drawing.height}`}
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+      <g className="map-fallback__counties">
+        {drawing.countyPaths.map((county) => <path key={county.fips} d={county.path} />)}
+      </g>
+      <g className="map-fallback__river">
+        {drawing.riverPaths.map((path, index) => <path key={index} d={path} />)}
+      </g>
+      <g className="map-fallback__labels">
+        {drawing.labels.map((label) => <text key={label.fips} x={label.x} y={label.y}>{label.name}</text>)}
+      </g>
+      <g className="map-fallback__markers">
+        {drawing.markers.map((marker) => (
+          <g key={marker.fips} transform={`translate(${marker.x} ${marker.y})`}>
+            <circle r={marker.radius} />
+            <text>{marker.count}</text>
+          </g>
+        ))}
+      </g>
+    </svg>
+  );
+}
+
 function detectAssetBase() {
   if (typeof window === "undefined") return "";
   return window.location.pathname === "/fblm" || window.location.pathname.startsWith("/fblm/")
@@ -75,6 +179,7 @@ export function MapExperience() {
   const [counts, setCounts] = useState<CountsData | null>(null);
   const [names, setNames] = useState<NamesData | null>(null);
   const [counties, setCounties] = useState<CountyCollection | null>(null);
+  const [hydrography, setHydrography] = useState<HydrographyCollection | null>(null);
   const [yearIndex, setYearIndex] = useState(0);
   const [selectedFips, setSelectedFips] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
@@ -84,6 +189,7 @@ export function MapExperience() {
   const [mapReady, setMapReady] = useState(false);
   const [embed, setEmbed] = useState(false);
   const [timelineTrackWidth, setTimelineTrackWidth] = useState(0);
+  const [mapActivated, setMapActivated] = useState(false);
 
   const year = counts?.years[yearIndex] ?? 1870;
   const yearProgress = counts && counts.years.length > 1
@@ -168,11 +274,13 @@ export function MapExperience() {
       fetch(`${base}/data/counts.json`).then((response) => response.json()),
       fetch(`${base}/data/legislators.json`).then((response) => response.json()),
       fetch(`${base}/data/ms-counties.geojson`).then((response) => response.json()),
+      fetch(`${base}/data/hydrography.json`).then((response) => response.json()),
     ])
-      .then(([countsResult, namesResult, countiesResult]) => {
+      .then(([countsResult, namesResult, countiesResult, hydrographyResult]) => {
         setCounts(countsResult);
         setNames(namesResult);
         setCounties(countiesResult);
+        setHydrography(hydrographyResult);
       })
       .catch(() => setLoadingError("The historical data could not be loaded."));
   }, []);
@@ -201,7 +309,7 @@ export function MapExperience() {
   }, [playing, counts, yearIndex]);
 
   useEffect(() => {
-    if (!counties || !counts || !mapContainer.current || mapRef.current) return;
+    if (!counties || !counts || !hydrography || !mapContainer.current || mapRef.current) return;
     let cancelled = false;
     let resizeObserver: ResizeObserver | undefined;
     let startupAnimationFrame: number | undefined;
@@ -219,18 +327,15 @@ export function MapExperience() {
     const base = detectAssetBase();
     const countyData = counties;
     const countsData = counts;
+    const hydrographyData = hydrography;
 
     async function initializeMap() {
       try {
-        const [{ default: mapboxgl }, configResponse, hydrographyResponse] = await Promise.all([
+        const [{ default: mapboxgl }, configResponse] = await Promise.all([
           import("mapbox-gl"),
           fetch(`${base}/${window.location.hostname === "localhost" ? "config.local.json" : "config.json"}`),
-          fetch(`${base}/data/hydrography.json`),
         ]);
-        const [config, hydrography] = await Promise.all([
-          configResponse.json(),
-          hydrographyResponse.json() as Promise<GeoJSON.FeatureCollection>,
-        ]);
+        const config = await configResponse.json();
         if (!config.mapboxToken) throw new Error("token");
         if (cancelled || !mapContainer.current) return;
         mapboxgl.accessToken = config.mapboxToken;
@@ -296,7 +401,7 @@ export function MapExperience() {
             source: "counties",
             paint: { "fill-color": "#f6f0e5", "fill-opacity": 0.09 },
           });
-          map.addSource("fblm-hydrography", { type: "geojson", data: hydrography });
+          map.addSource("fblm-hydrography", { type: "geojson", data: hydrographyData });
           map.addLayer({
             id: "fblm-mississippi-river",
             type: "line",
@@ -442,7 +547,7 @@ export function MapExperience() {
       mapRef.current?.remove();
       mapRef.current = null;
     };
-  }, [counties, counts, pointData]);
+  }, [counties, counts, hydrography, pointData]);
 
   useEffect(() => {
     const source = mapRef.current?.getSource("legislators") as import("mapbox-gl").GeoJSONSource | undefined;
@@ -560,8 +665,15 @@ export function MapExperience() {
         </div>
 
         <div className="map-layout">
-          <div className="map-wrap">
+          <div
+            className="map-wrap"
+            onPointerDown={() => setMapActivated(true)}
+            onWheel={() => setMapActivated(true)}
+          >
             <div ref={mapContainer} className="map" aria-label={`Map of Black legislators by Mississippi county in ${year}`} />
+            {!mapActivated && counties && hydrography && (
+              <StaticMapFallback counties={counties} hydrography={hydrography} records={records} />
+            )}
             <button className="map-reset" type="button" onClick={resetMapView} aria-label="Reset map view" title="Reset map view">
               <svg viewBox="0 0 20 20" aria-hidden="true">
                 <path d="M7 3H3v4m10-4h4v4M7 17H3v-4m10 4h4v-4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
