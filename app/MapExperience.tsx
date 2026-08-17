@@ -221,15 +221,16 @@ export function MapExperience() {
     const years = counts?.years ?? [];
     if (years.length === 0) return [];
     if (years.length === 1) return [{ year: years[0], index: 0 }];
-    const capacity = timelineTrackWidth > 0
-      ? Math.max(2, Math.floor(timelineTrackWidth / 54))
-      : 3;
-    const tickCount = Math.min(years.length, capacity);
-    const indexes = new Set<number>();
-    for (let tick = 0; tick < tickCount; tick += 1) {
-      indexes.add(Math.round((tick * (years.length - 1)) / (tickCount - 1)));
+    const baseSpacing = timelineTrackWidth / (years.length - 1);
+    const stride = timelineTrackWidth > 0
+      ? Math.max(1, Math.ceil(30 / baseSpacing))
+      : Math.ceil((years.length - 1) / 2);
+    const indexes: number[] = [];
+    for (let index = 0; index < years.length; index += stride) {
+      indexes.push(index);
     }
-    return [...indexes].sort((a, b) => a - b).map((index) => ({ year: years[index], index }));
+    if (indexes.at(-1) !== years.length - 1) indexes.push(years.length - 1);
+    return indexes.map((index) => ({ year: years[index], index }));
   }, [counts, timelineTrackWidth]);
   const records = useMemo(
     () => counts?.records.filter((record) => record.year === year && record.count > 0) ?? [],
