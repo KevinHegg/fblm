@@ -674,7 +674,9 @@ export function MapExperience() {
                 {timelineTicks.map((tick) => (
                   <span
                     key={tick.year}
-                    style={{ left: `${(tick.index / Math.max(1, (counts?.years.length ?? 1) - 1)) * 100}%` }}
+                    style={{
+                      left: `${8 + (tick.index / Math.max(1, (counts?.years.length ?? 1) - 1)) * Math.max(0, timelineTrackWidth - 16)}px`,
+                    }}
                   >
                     {tick.year}
                   </span>

@@ -49,10 +49,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .year-ticks { position: absolute; right: 0; bottom: 0; left: 0; height: 13px; color: var(--muted); font: 0.58rem/1 Arial, sans-serif; }
 .year-ticks span { position: absolute; bottom: 0; transform: translateX(-50%); white-space: nowrap; }
 .year-ticks span::before { position: absolute; bottom: 11px; left: 50%; width: 1px; height: 3px; background: var(--rule); content: ""; }
-.year-ticks span:first-child { transform: none; }
-.year-ticks span:first-child::before { left: 8px; }
-.year-ticks span:last-child { transform: translateX(-100%); }
-.year-ticks span:last-child::before { right: 8px; left: auto; }
 
 .map-layout { display: grid; min-height: 0; grid-template-columns: minmax(0, 1fr) 290px; }
 .map-wrap { position: relative; min-width: 0; background: #cfd3c8; }
